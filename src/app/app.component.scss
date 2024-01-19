@@ -1,0 +1,13 @@
+.navbar.bg-body-tertiary {
+    background-color: blue !important; /* Puedes cambiar "blue" por el color que desees */
+}
+
+/* Estilo para cambiar el color del texto en la barra de navegación (opcional) */
+.navbar.bg-body-tertiary a.navbar-brand,
+.navbar.bg-body-tertiary a.nav-link,
+.navbar.bg-body-tertiary button.btn-outline-success {
+    color: white; /* Puedes cambiar "white" por el color de texto que desees */
+}
+.btn {
+    background-color: red;
+}

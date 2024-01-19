@@ -1,0 +1,14 @@
+{
+    "shortid": "SkKBCK39l",
+    "name": "invoice-logo.png",
+    "creationDate": {
+        "$$date": 1705577110739
+    },
+    "modificationDate": {
+        "$$date": 1705577110739
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "a1EJVHELnvs1b5Za",
+    "$entitySet": "assets"
+}
