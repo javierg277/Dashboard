@@ -74,3 +74,409 @@
 2024-01-18T13:26:49.990Z - info: html-to-xlsx generation is starting rootId=5126k03u5ae0b0o, id=5126k03u5ae0b0o
 2024-01-18T13:26:50.719Z - info: html-to-xlsx generation was finished rootId=5126k03u5ae0b0o, id=5126k03u5ae0b0o
 2024-01-18T13:26:50.856Z - info: Rendering request 3 finished in 1652 ms rootId=5126k03u5ae0b0o, id=5126k03u5ae0b0o
+2024-01-19T13:51:05.766Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
+2024-01-19T13:51:05.769Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-19T13:51:05.775Z - info: Extensions location cache doesn't contain entry yet, crawling
+2024-01-19T13:51:11.101Z - info: Found 35 extension(s)
+2024-01-19T13:51:11.217Z - info: Using extension authentication@4.0.1
+2024-01-19T13:51:11.489Z - info: Using extension base@4.0.0
+2024-01-19T13:51:11.494Z - info: Using extension child-templates@4.0.0
+2024-01-19T13:51:11.498Z - info: Using extension cli@4.0.2
+2024-01-19T13:51:11.501Z - info: Using extension components@4.0.0
+2024-01-19T13:51:11.504Z - info: Using extension data@4.0.0
+2024-01-19T13:51:11.509Z - info: Using extension express@4.0.1
+2024-01-19T13:51:11.934Z - info: Using extension freeze@4.0.0
+2024-01-19T13:51:11.937Z - info: Using extension fs-store@4.0.1
+2024-01-19T13:51:12.114Z - info: Using extension handlebars@4.0.1
+2024-01-19T13:51:12.117Z - info: Using extension import-export@4.0.2
+2024-01-19T13:51:12.134Z - info: Using extension jsrender@4.0.0
+2024-01-19T13:51:12.136Z - info: Using extension licensing@4.0.1
+2024-01-19T13:51:12.157Z - info: Using extension localization@4.0.1
+2024-01-19T13:51:12.159Z - info: Using extension npm@4.0.0
+2024-01-19T13:51:12.165Z - info: Using extension pdf-utils@4.0.2
+2024-01-19T13:51:12.172Z - info: Using extension reports@4.0.0
+2024-01-19T13:51:12.178Z - info: Using extension tags@4.0.1
+2024-01-19T13:51:12.182Z - info: Using extension text@4.0.0
+2024-01-19T13:51:12.185Z - info: Using extension version-control@4.0.0
+2024-01-19T13:51:12.219Z - info: Using extension assets@4.0.2
+2024-01-19T13:51:12.247Z - info: Using extension authorization@4.0.0
+2024-01-19T13:51:12.257Z - info: Using extension browser-client@4.0.0
+2024-01-19T13:51:12.261Z - info: Using extension chrome-pdf@4.0.0
+2024-01-19T13:51:12.266Z - info: Using extension docx@4.1.1
+2024-01-19T13:51:12.273Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-19T13:51:12.772Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-19T13:51:12.773Z - info: Using extension pptx@4.1.0
+2024-01-19T13:51:12.776Z - info: Using extension scheduling@4.0.0
+2024-01-19T13:51:12.846Z - info: Using extension scripts@4.0.0
+2024-01-19T13:51:12.847Z - info: Using extension static-pdf@4.0.0
+2024-01-19T13:51:12.850Z - info: Using extension studio@4.0.2
+2024-01-19T13:51:13.010Z - info: Using extension xlsx@4.0.2
+2024-01-19T13:51:13.013Z - info: Using extension public-templates@4.0.0
+2024-01-19T13:51:13.015Z - info: Using extension sample-template@4.0.0
+2024-01-19T13:51:13.018Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-19T13:51:13.020Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-01-19T13:51:13.021Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-19T13:51:13.021Z - info: Using fs provider for template store.
+2024-01-19T13:51:13.029Z - info: fs store is persisting using fs for C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\data
+2024-01-19T13:51:13.046Z - info: fs store is loading data
+2024-01-19T13:51:13.093Z - info: fs store is initialized successfully
+2024-01-19T13:51:13.110Z - info: Creating default express app.
+2024-01-19T13:51:13.232Z - info: jsreport server successfully started on http port: 5200
+2024-01-19T13:51:13.234Z - info: Verifying license key free
+2024-01-19T13:51:13.235Z - info: Using free license
+2024-01-19T13:51:13.240Z - info: Initializing worker threads
+2024-01-19T13:51:13.568Z - info: 2 worker threads initialized in 328ms
+2024-01-19T13:51:13.569Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-19T13:51:13.570Z - info: reporter initialized
+2024-01-19T13:52:13.107Z - warn: Cleaning fs journal failed, will reload Unexpected end of JSON input stack=SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at module.exports.parse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\serializator\index.js:58:15)
+    at parse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-fs-store\lib\customUtils.js:63:10)
+    at Object.clean (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-fs-store\lib\journal.js:185:24)
+    at async lock (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-fs-store\lib\customUtils.js:150:12)
+2024-01-19T16:54:33.541Z - info: fs store is loading data
+2024-01-20T11:36:16.533Z - info: fs store is loading data
+2024-01-20T11:43:02.443Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
+2024-01-20T11:43:02.450Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-20T11:43:02.468Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-20T11:43:02.536Z - info: Found 35 extension(s)
+2024-01-20T11:43:02.627Z - debug: Writing extension locations cache to C:\Users\franc\AppData\Local\Temp\jsreport\core\locations.json
+2024-01-20T11:43:02.630Z - debug: Discovered 35 extensions
+2024-01-20T11:43:02.713Z - info: Using extension authentication@4.0.1
+2024-01-20T11:43:03.107Z - debug: Extension authentication@4.0.1 was disabled
+2024-01-20T11:43:03.108Z - info: Using extension base@4.0.0
+2024-01-20T11:43:03.118Z - info: Using extension child-templates@4.0.0
+2024-01-20T11:43:03.121Z - info: Using extension cli@4.0.2
+2024-01-20T11:43:03.124Z - info: Using extension components@4.0.0
+2024-01-20T11:43:03.127Z - info: Using extension data@4.0.0
+2024-01-20T11:43:03.130Z - info: Using extension express@4.0.1
+2024-01-20T11:43:03.849Z - info: Using extension freeze@4.0.0
+2024-01-20T11:43:03.854Z - info: Using extension fs-store@4.0.1
+2024-01-20T11:43:04.123Z - info: Using extension handlebars@4.0.1
+2024-01-20T11:43:04.127Z - info: Using extension import-export@4.0.2
+2024-01-20T11:43:04.169Z - info: Using extension jsrender@4.0.0
+2024-01-20T11:43:04.173Z - info: Using extension licensing@4.0.1
+2024-01-20T11:43:04.205Z - info: Using extension localization@4.0.1
+2024-01-20T11:43:04.209Z - info: Using extension npm@4.0.0
+2024-01-20T11:43:04.230Z - info: Using extension pdf-utils@4.0.2
+2024-01-20T11:43:04.241Z - info: Using extension reports@4.0.0
+2024-01-20T11:43:04.256Z - info: Using extension tags@4.0.1
+2024-01-20T11:43:04.267Z - info: Using extension text@4.0.0
+2024-01-20T11:43:04.271Z - info: Using extension version-control@4.0.0
+2024-01-20T11:43:04.342Z - info: Using extension assets@4.0.2
+2024-01-20T11:43:04.394Z - info: Using extension authorization@4.0.0
+2024-01-20T11:43:04.405Z - debug: Extension authorization@4.0.0 was disabled
+2024-01-20T11:43:04.406Z - info: Using extension browser-client@4.0.0
+2024-01-20T11:43:04.410Z - info: Using extension chrome-pdf@4.0.0
+2024-01-20T11:43:04.418Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-01-20T11:43:04.419Z - info: Using extension docx@4.1.1
+2024-01-20T11:43:04.426Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-20T11:43:05.340Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-20T11:43:05.341Z - info: Using extension pptx@4.1.0
+2024-01-20T11:43:05.346Z - info: Using extension scheduling@4.0.0
+2024-01-20T11:43:05.417Z - info: Using extension scripts@4.0.0
+2024-01-20T11:43:05.420Z - info: Using extension static-pdf@4.0.0
+2024-01-20T11:43:05.421Z - info: Using extension studio@4.0.2
+2024-01-20T11:43:05.630Z - info: Using extension xlsx@4.0.2
+2024-01-20T11:43:05.634Z - info: Using extension public-templates@4.0.0
+2024-01-20T11:43:05.637Z - debug: Extension public-templates@4.0.0 was disabled
+2024-01-20T11:43:05.637Z - info: Using extension sample-template@4.0.0
+2024-01-20T11:43:05.641Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-20T11:43:05.644Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-20T11:43:05.645Z - info: Using fs provider for template store.
+2024-01-20T11:43:05.655Z - info: fs store is persisting using fs for C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\data
+2024-01-20T11:43:05.674Z - info: fs store is loading data
+2024-01-20T11:43:05.713Z - info: fs store is initialized successfully
+2024-01-20T11:43:05.723Z - debug: studio default theme is: light
+2024-01-20T11:43:05.734Z - info: Creating default express app.
+2024-01-20T11:43:05.817Z - info: jsreport server successfully started on http port: 5488
+2024-01-20T11:43:05.819Z - info: Verifying license key free
+2024-01-20T11:43:05.821Z - info: Using free license
+2024-01-20T11:43:05.829Z - debug: Creating samples is disabled
+2024-01-20T11:43:05.830Z - info: Initializing worker threads
+2024-01-20T11:43:05.831Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-01-20T11:43:07.451Z - info: 2 worker threads initialized in 1621ms
+2024-01-20T11:43:07.452Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-20T11:43:07.453Z - info: reporter initialized
+2024-01-20T11:43:35.055Z - debug: OData query on templates
+2024-01-20T11:43:35.095Z - debug: OData query on settings
+2024-01-20T11:43:35.132Z - debug: OData query on folders
+2024-01-20T11:43:35.159Z - debug: OData query on components
+2024-01-20T11:43:35.178Z - debug: OData query on data
+2024-01-20T11:43:35.194Z - debug: OData query on tags
+2024-01-20T11:43:35.209Z - debug: OData query on assets
+2024-01-20T11:43:35.232Z - debug: OData query on scripts
+2024-01-20T11:43:35.248Z - debug: OData query on schedules
+2024-01-20T11:43:35.493Z - debug: OData query on templates
+2024-01-20T11:43:35.545Z - debug: OData query on profiles
+2024-01-20T11:43:35.580Z - debug: OData query on profiles
+2024-01-20T11:43:35.633Z - debug: OData query on profiles
+2024-01-20T11:43:35.670Z - debug: OData query on profiles
+2024-01-20T11:43:35.686Z - debug: OData query on profiles
+2024-01-20T11:43:35.699Z - debug: OData query on profiles
+2024-01-20T11:43:35.712Z - debug: OData query on templates
+2024-01-20T11:51:04.892Z - debug: Version control commit: local changes
+2024-01-20T11:51:04.987Z - debug: Version control diff for local changes
+2024-01-20T11:51:07.073Z - debug: OData query on data
+2024-01-20T11:51:09.041Z - debug: OData query on assets
+2024-01-20T11:51:10.000Z - debug: OData query on templates
+2024-01-20T11:51:10.719Z - debug: OData query on assets
+2024-01-20T11:51:12.364Z - info: Render request 1 queued for execution and waiting for available worker rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:12.709Z - info: Starting rendering request 1 rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:12.711Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:12.714Z - debug: Inline data specified. rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:12.715Z - debug: Base url not specified, skipping its injection. rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:12.717Z - debug: Rendering engine handlebars rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:14.988Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:15.784Z - debug: Executing recipe chrome-pdf rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:17.490Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.379Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/fec8bfd0-5d26-4fa3-95bc-3929b3f2482f-chrome-pdf.html rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.380Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/fec8bfd0-5d26-4fa3-95bc-3929b3f2482f-chrome-pdf.html rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.486Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.488Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.489Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":57328,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.701Z - debug: Skipping storing report. rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:19.706Z - info: Rendering request 1 finished in 7312 ms rootId=xl10ew50er6ozzz, id=xl10ew50er6ozzz
+2024-01-20T11:51:25.209Z - debug: OData query on templates
+2024-01-20T11:51:26.527Z - info: Render request 2 queued for execution and waiting for available worker rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:26.613Z - info: Starting rendering request 2 rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:26.617Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:26.620Z - debug: Data item not defined for this template. rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:26.635Z - debug: Executing script orders-script (beforeRender) rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:27.571Z - warn: Error when processing render request 2
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:2:15)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+  at async Scripts._runScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+  at async Scripts.handleBeforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:64:7)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:27.589Z - warn: Rendering request 2 finished with error in 1046 ms rootId=3az4bl13k5lvkr8, id=3az4bl13k5lvkr8
+2024-01-20T11:51:29.555Z - info: Render request 3 queued for execution and waiting for available worker rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.624Z - info: Starting rendering request 3 rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.628Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.631Z - debug: Data item not defined for this template. rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.633Z - debug: Executing script orders-script (beforeRender) rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.703Z - warn: Error when processing render request 3
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:2:15)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+  at async Scripts._runScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+  at async Scripts.handleBeforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:64:7)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:29.730Z - warn: Rendering request 3 finished with error in 149 ms rootId=6493sn93b1feevb, id=6493sn93b1feevb
+2024-01-20T11:51:36.489Z - debug: OData query on templates
+2024-01-20T11:51:37.575Z - info: Render request 4 queued for execution and waiting for available worker rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:37.759Z - info: Starting rendering request 4 rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:37.761Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:37.763Z - debug: Adding sample data B1lSTrt6NB rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:37.764Z - debug: Base url not specified, skipping its injection. rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:37.765Z - debug: Rendering engine handlebars rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:38.566Z - warn: Error when processing render request 4
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T11:51:38.603Z - warn: Rendering request 4 finished with error in 993 ms rootId=7ft5eetv10vdhgh, id=7ft5eetv10vdhgh
+2024-01-20T12:03:07.593Z - debug: OData query on templates
+2024-01-20T12:03:07.616Z - debug: OData query on settings
+2024-01-20T12:03:07.627Z - debug: OData query on folders
+2024-01-20T12:03:07.641Z - debug: OData query on components
+2024-01-20T12:03:07.654Z - debug: OData query on data
+2024-01-20T12:03:07.669Z - debug: OData query on tags
+2024-01-20T12:03:07.683Z - debug: OData query on assets
+2024-01-20T12:03:07.697Z - debug: OData query on scripts
+2024-01-20T12:03:07.710Z - debug: OData query on schedules
+2024-01-20T12:03:07.756Z - debug: OData query on templates
+2024-01-20T12:03:14.905Z - debug: OData query on templates
+2024-01-20T12:03:17.840Z - info: Render request 5 queued for execution and waiting for available worker rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:17.905Z - info: Starting rendering request 5 rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:17.910Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:17.914Z - debug: Adding sample data Sy5S19ncg rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:17.917Z - debug: Base url not specified, skipping its injection. rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:17.925Z - debug: Rendering engine handlebars rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.014Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.018Z - debug: Executing recipe chrome-pdf rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.019Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.234Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/f8278c01-ec53-4b24-9b34-db6690044f58-chrome-pdf.html rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.336Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/f8278c01-ec53-4b24-9b34-db6690044f58-chrome-pdf.html rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.341Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.344Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.550Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59870,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.681Z - debug: Skipping storing report. rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:03:18.683Z - info: Rendering request 5 finished in 841 ms rootId=e4ipmmtndcnldca, id=e4ipmmtndcnldca
+2024-01-20T12:07:39.845Z - debug: OData query on templates
+2024-01-20T12:07:39.866Z - debug: OData query on settings
+2024-01-20T12:07:39.892Z - debug: OData query on folders
+2024-01-20T12:07:39.917Z - debug: OData query on components
+2024-01-20T12:07:39.931Z - debug: OData query on data
+2024-01-20T12:07:39.943Z - debug: OData query on tags
+2024-01-20T12:07:39.955Z - debug: OData query on assets
+2024-01-20T12:07:39.968Z - debug: OData query on scripts
+2024-01-20T12:07:39.979Z - debug: OData query on schedules
+2024-01-20T12:07:40.027Z - debug: OData query on templates
+2024-01-20T12:16:51.978Z - debug: Version control commit: local changes
+2024-01-20T12:16:52.009Z - debug: Version control diff for local changes
+2024-01-20T12:17:08.539Z - info: Render request 6 queued for execution and waiting for available worker rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:08.609Z - info: Starting rendering request 6 rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:08.611Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:08.613Z - debug: Adding sample data Sy5S19ncg rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:08.615Z - debug: Base url not specified, skipping its injection. rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:08.616Z - debug: Rendering engine handlebars rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:09.335Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:09.435Z - debug: Executing recipe chrome-pdf rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:10.095Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.261Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/27eecf6e-7b69-43fc-8b49-c3fc1c6979bb-chrome-pdf.html rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.367Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/27eecf6e-7b69-43fc-8b49-c3fc1c6979bb-chrome-pdf.html rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.369Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.370Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.370Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59152,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.523Z - debug: Skipping storing report. rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:17:11.525Z - info: Rendering request 6 finished in 2986 ms rootId=nfi43kd1f95gtsw, id=nfi43kd1f95gtsw
+2024-01-20T12:29:22.009Z - debug: OData query on templates
+2024-01-20T12:30:13.308Z - debug: OData query on templates
+2024-01-20T12:30:13.345Z - debug: OData query on settings
+2024-01-20T12:30:13.355Z - debug: OData query on folders
+2024-01-20T12:30:13.381Z - debug: OData query on components
+2024-01-20T12:30:13.401Z - debug: OData query on data
+2024-01-20T12:30:13.424Z - debug: OData query on tags
+2024-01-20T12:30:13.446Z - debug: OData query on assets
+2024-01-20T12:30:13.479Z - debug: OData query on scripts
+2024-01-20T12:30:13.503Z - debug: OData query on schedules
+2024-01-20T12:30:13.615Z - debug: OData query on templates
+2024-01-20T12:30:13.665Z - debug: OData query on profiles
+2024-01-20T12:30:13.736Z - debug: OData query on profiles
+2024-01-20T12:30:13.806Z - debug: OData query on profiles
+2024-01-20T12:30:13.844Z - debug: OData query on profiles
+2024-01-20T12:30:13.861Z - debug: OData query on profiles
+2024-01-20T12:30:13.877Z - debug: OData query on profiles
+2024-01-20T12:30:13.894Z - debug: OData query on templates
+2024-01-20T12:30:19.471Z - debug: OData query on templates
+2024-01-20T12:40:01.524Z - debug: OData query on templates
+2024-01-20T12:40:01.560Z - debug: OData query on profiles
+2024-01-20T12:40:01.572Z - debug: OData query on profiles
+2024-01-20T12:40:01.586Z - debug: OData query on profiles
+2024-01-20T12:40:01.601Z - debug: OData query on profiles
+2024-01-20T12:40:01.617Z - debug: OData query on profiles
+2024-01-20T12:40:01.633Z - debug: OData query on profiles
+2024-01-20T12:40:01.646Z - debug: OData query on templates
+2024-01-20T12:40:19.948Z - debug: OData query on profiles
+2024-01-20T12:40:24.960Z - debug: OData query on profiles
+2024-01-20T12:40:30.747Z - debug: OData query on profiles
+2024-01-20T12:40:35.742Z - debug: OData query on profiles
+2024-01-20T12:40:40.749Z - debug: OData query on profiles
+2024-01-20T12:40:44.964Z - debug: OData query on profiles
+2024-01-20T12:40:49.956Z - debug: OData query on profiles
+2024-01-20T12:40:54.956Z - debug: OData query on profiles
+2024-01-20T12:40:59.882Z - debug: OData query on profiles
+2024-01-20T12:40:59.955Z - debug: OData query on profiles
+2024-01-20T12:41:02.617Z - debug: OData query on profiles
+2024-01-20T12:41:03.842Z - debug: OData query on profiles
+2024-01-20T12:41:04.960Z - debug: OData query on profiles
+2024-01-20T12:41:05.042Z - debug: OData query on profiles
+2024-01-20T12:41:07.225Z - debug: OData query on profiles
+2024-01-20T12:41:09.556Z - debug: OData insert into settings
+2024-01-20T12:41:09.565Z - debug: OData query on profiles
+2024-01-20T12:41:09.960Z - debug: OData query on profiles
+2024-01-20T12:41:11.743Z - debug: OData update on settings
+2024-01-20T12:41:11.747Z - debug: OData query on profiles
+2024-01-20T12:41:12.849Z - debug: OData update on settings
+2024-01-20T12:41:12.852Z - debug: OData query on profiles
+2024-01-20T12:41:14.190Z - debug: OData query on profiles
+2024-01-20T12:41:14.193Z - debug: Version control commit: local changes
+2024-01-20T12:41:14.208Z - debug: Version control diff for local changes
+2024-01-20T12:41:14.965Z - debug: OData query on profiles
+2024-01-20T12:41:15.903Z - debug: OData query on profiles
+2024-01-20T12:41:16.607Z - debug: OData query on profiles
+2024-01-20T12:41:19.192Z - debug: OData query on templates
+2024-01-20T12:41:19.203Z - debug: OData query on profiles
+2024-01-20T12:41:19.214Z - debug: OData query on profiles
+2024-01-20T12:41:19.226Z - debug: OData query on profiles
+2024-01-20T12:41:19.236Z - debug: OData query on profiles
+2024-01-20T12:41:19.247Z - debug: OData query on profiles
+2024-01-20T12:41:19.258Z - debug: OData query on profiles
+2024-01-20T12:41:19.269Z - debug: OData query on templates
+2024-01-20T12:41:36.580Z - debug: OData query on templates
+2024-01-20T12:41:55.116Z - debug: OData query on data
+2024-01-20T12:41:56.976Z - debug: OData query on assets
+2024-01-20T12:42:07.822Z - debug: OData query on data
+2024-01-20T12:42:39.183Z - debug: OData query on templates
+2024-01-20T12:42:39.205Z - debug: OData query on profiles
+2024-01-20T12:42:39.220Z - debug: OData query on profiles
+2024-01-20T12:42:39.232Z - debug: OData query on profiles
+2024-01-20T12:42:39.243Z - debug: OData query on profiles
+2024-01-20T12:42:39.254Z - debug: OData query on profiles
+2024-01-20T12:42:39.265Z - debug: OData query on profiles
+2024-01-20T12:42:39.275Z - debug: OData query on templates

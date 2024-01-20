@@ -1,45 +1,14 @@
 {
-  "httpPort": 5200,
+  "httpPort": 5488,
   "store": {
     "provider": "fs"
   },
-  "blobStorage": {
-    "provider": "fs"
-  },
   "logger": {
-    "console": {
-      "transport": "console",
-      "level": "debug"
-    },
-    "file": {
-      "transport": "file",
-      "level": "info",
-      "filename": "logs/reporter.log"
-    },
-    "error": {
-      "transport": "file",
-      "level": "error",
-      "filename": "logs/error.log"
-    }
-  },
-  "trustUserCode": true,
-  "reportTimeout": 60000,
-  "workers": {
-    "numberOfWorkers": 2
+    "console": { "transport": "console", "level": "debug" }
   },
   "extensions": {
-    "authentication": {
-      "cookieSession": {
-        "secret": "cookies"
-      },
-      "admin": {
-        "username": "admin",
-        "password": "password"
-      },
-      "enabled": true
-    },
-    "sample-template": {
-      "createSamples": true
+    "express": {
+      "inputRequestLimit": "50mb"
     }
   }
 }
