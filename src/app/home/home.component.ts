@@ -1,19 +1,21 @@
 // En tu componente de Angular
 import { Component } from '@angular/core';
 import { JsReportService } from '../js.service';
+import { HttpClient } from '@angular/common/http';
+import { forkJoin } from 'rxjs';
 
 
 @Component({
-  selector: 'app-tu-componente',
+  selector: 'app-home',
   template: `
-  <button (click)="generarInformeInvoice()">Generar Informe Invoice-Main</button>
-  <button (click)="generarInformeSales()">Generar Informe Sales-Main</button>
-  <button (click)="generarInformeOrder()">Generar Informe Orders-Main</button>
+  <button (click)="generarInformeInvoice()">Generar PDF Invoice-Main</button>
+  <button (click)="generarInformeSales()">Generar Excel Sales-Main</button>
+  <button (click)="generarInformeOrder()">Generar PDF  Orders-Main</button>
   <button (click)="showTemplates()">Mostrar Templates</button>
 `
 })
 export class HomeComponent {
-  constructor(private jsReportService: JsReportService) { }
+  constructor(private http: HttpClient,private jsReportService: JsReportService) { }
 
   ngOnInit() {
     this.showTemplates();
@@ -38,24 +40,20 @@ export class HomeComponent {
 
   generarInformeInvoice() {
     const templateName = 'invoice-main';
-    const datosInforme = {
-      "number": "123",
-      "seller": {
-        "name": "Next Step Webs, Inc.",
-        "road": "12345 Sunny Road",
-        "country": "Sunnyville, TX 12345"
-      },
-      "buyer": {
-        "name": "Acme Corp.",
-        "road": "16 Johnson Road",
-        "country": "Paris, France 8060"
-      },
-      "items": [{
-        "name": "Website design",
-        "price": 300
-
-      }]}
-
+  
+    forkJoin({
+      api1: this.http.get('localhost:7111/Cliente/listarnumber'),
+      api2: this.http.get('localhost:7111/Cliente/listar'),
+      api3: this.http.get('localhost:7111/Cliente/listar2'),
+      api4: this.http.get('localhost:7111/Cliente/listar3')
+    }).subscribe(res => {
+      const datosInforme = {
+        ...res.api1,
+        ...res.api2,
+        ...res.api3,
+        ...res.api4
+      };
+  
       this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
         (respuesta) => {
           // Abre el PDF en una nueva ventana
@@ -68,7 +66,8 @@ export class HomeComponent {
           console.error('Error al generar el informe', error);
         }
       );
-    }
+    });
+  }
     generarInformeSales() {
       const templateName = 'sales-main';
       const datosInforme = {
@@ -150,7 +149,7 @@ export class HomeComponent {
           // Crea un enlace y descarga el archivo Excel
           const link = document.createElement('a');
           link.href = url;
-          link.download = 'informe.xlsx'; // Cambia 'informe.xlsx' al nombre que quieras para el archivo
+          link.download = 'Sales.xlsx'; 
           link.click();
           window.URL.revokeObjectURL(url);
         },

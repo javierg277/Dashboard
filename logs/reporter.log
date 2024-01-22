@@ -1713,3 +1713,540 @@ Error: Error when evaluating engine handlebars for template /samples/Sales/sales
 2024-01-22T09:23:14.598Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
 2024-01-22T09:23:14.601Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
 2024-01-22T09:23:14.609Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-22T09:23:14.642Z - info: Found 35 extension(s)
+2024-01-22T09:23:14.682Z - debug: Writing extension locations cache to C:\Users\franc\AppData\Local\Temp\jsreport\core\locations.json
+2024-01-22T09:23:14.685Z - debug: Discovered 35 extensions
+2024-01-22T09:23:14.746Z - info: Using extension authentication@4.0.1
+2024-01-22T09:23:14.962Z - debug: Extension authentication@4.0.1 was disabled
+2024-01-22T09:23:14.964Z - info: Using extension base@4.0.0
+2024-01-22T09:23:14.969Z - info: Using extension child-templates@4.0.0
+2024-01-22T09:23:14.972Z - info: Using extension cli@4.0.2
+2024-01-22T09:23:14.976Z - info: Using extension components@4.0.0
+2024-01-22T09:23:14.980Z - info: Using extension data@4.0.0
+2024-01-22T09:23:14.984Z - info: Using extension express@4.0.1
+2024-01-22T09:23:15.372Z - info: Using extension freeze@4.0.0
+2024-01-22T09:23:15.375Z - info: Using extension fs-store@4.0.1
+2024-01-22T09:23:15.493Z - info: Using extension handlebars@4.0.1
+2024-01-22T09:23:15.495Z - info: Using extension import-export@4.0.2
+2024-01-22T09:23:15.512Z - info: Using extension jsrender@4.0.0
+2024-01-22T09:23:15.514Z - info: Using extension licensing@4.0.1
+2024-01-22T09:23:15.529Z - info: Using extension localization@4.0.1
+2024-01-22T09:23:15.531Z - info: Using extension npm@4.0.0
+2024-01-22T09:23:15.541Z - info: Using extension pdf-utils@4.0.2
+2024-01-22T09:23:15.545Z - info: Using extension reports@4.0.0
+2024-01-22T09:23:15.550Z - info: Using extension tags@4.0.1
+2024-01-22T09:23:15.558Z - info: Using extension text@4.0.0
+2024-01-22T09:23:15.560Z - info: Using extension version-control@4.0.0
+2024-01-22T09:23:15.589Z - info: Using extension assets@4.0.2
+2024-01-22T09:23:15.611Z - info: Using extension authorization@4.0.0
+2024-01-22T09:23:15.615Z - debug: Extension authorization@4.0.0 was disabled
+2024-01-22T09:23:15.616Z - info: Using extension browser-client@4.0.0
+2024-01-22T09:23:15.620Z - info: Using extension chrome-pdf@4.0.0
+2024-01-22T09:23:15.625Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-01-22T09:23:15.626Z - info: Using extension docx@4.1.1
+2024-01-22T09:23:15.630Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-22T09:23:16.066Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-22T09:23:16.067Z - info: Using extension pptx@4.1.0
+2024-01-22T09:23:16.070Z - info: Using extension scheduling@4.0.0
+2024-01-22T09:23:16.112Z - info: Using extension scripts@4.0.0
+2024-01-22T09:23:16.114Z - info: Using extension static-pdf@4.0.0
+2024-01-22T09:23:16.115Z - info: Using extension studio@4.0.2
+2024-01-22T09:23:16.243Z - info: Using extension xlsx@4.0.2
+2024-01-22T09:23:16.246Z - info: Using extension public-templates@4.0.0
+2024-01-22T09:23:16.248Z - debug: Extension public-templates@4.0.0 was disabled
+2024-01-22T09:23:16.248Z - info: Using extension sample-template@4.0.0
+2024-01-22T09:23:16.254Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-22T09:23:16.258Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-01-22T09:23:16.259Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-22T09:23:16.260Z - info: Using fs provider for template store.
+2024-01-22T09:23:16.268Z - info: fs store is persisting using fs for C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\data
+2024-01-22T09:23:16.289Z - info: fs store is loading data
+2024-01-22T09:23:16.331Z - info: fs store is initialized successfully
+2024-01-22T09:23:16.342Z - debug: studio default theme is: light
+2024-01-22T09:23:16.352Z - info: Creating default express app.
+2024-01-22T09:23:16.409Z - info: jsreport server successfully started on http port: 5488
+2024-01-22T09:23:16.411Z - info: Verifying license key free
+2024-01-22T09:23:16.412Z - info: Using free license
+2024-01-22T09:23:16.416Z - debug: Creating samples is disabled
+2024-01-22T09:23:16.419Z - info: Initializing worker threads
+2024-01-22T09:23:16.420Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-01-22T09:23:16.744Z - info: 2 worker threads initialized in 325ms
+2024-01-22T09:23:16.745Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-22T09:23:16.746Z - info: reporter initialized
+2024-01-22T09:24:04.673Z - info: Render request 1 queued for execution and waiting for available worker rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:04.805Z - info: Starting rendering request 1 rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:04.807Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:04.808Z - debug: Adding sample data B1lSTrt6NB rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:04.809Z - debug: Base url not specified, skipping its injection. rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:04.810Z - debug: Rendering engine handlebars rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:06.587Z - debug: Executing recipe html-to-xlsx rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:06.588Z - info: html-to-xlsx generation is starting rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:08.989Z - info: html-to-xlsx generation was finished rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:08.990Z - debug: preparing office preview rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:09.187Z - debug: Skipping storing report. rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:09.188Z - info: Rendering request 1 finished in 4518 ms rootId=fq8h2so338e4dcx, id=fq8h2so338e4dcx
+2024-01-22T09:24:17.144Z - debug: OData query on data
+2024-01-22T09:26:10.924Z - debug: OData query on templates
+2024-01-22T09:26:13.004Z - info: Render request 2 queued for execution and waiting for available worker rootId=xl3494jqadf1wvj, id=xl3494jqadf1wvj
+2024-01-22T09:26:13.022Z - info: Starting rendering request 2 rootId=xl3494jqadf1wvj, id=xl3494jqadf1wvj
+2024-01-22T09:26:13.023Z - warn: Error when processing render request 2
+(because) unable to find specified template (Sales-main)
+Error: Unable to find specified template (Sales-main)
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at AsyncFunction.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:51:28)
+    at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+    at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+    at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=xl3494jqadf1wvj, id=xl3494jqadf1wvj
+2024-01-22T09:26:13.027Z - warn: Rendering request 2 finished with error in 22 ms rootId=xl3494jqadf1wvj, id=xl3494jqadf1wvj
+2024-01-22T09:26:13.030Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:26:15.071Z - info: Render request 3 queued for execution and waiting for available worker rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.086Z - info: Starting rendering request 3 rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.087Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.099Z - debug: Inline data specified. rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.100Z - debug: Base url not specified, skipping its injection. rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.101Z - debug: Rendering engine handlebars rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.186Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.188Z - debug: Executing recipe chrome-pdf rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:15.616Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.683Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/ab55d570-6bf9-4105-80f1-7cb13a5269d9-chrome-pdf.html rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.787Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/ab55d570-6bf9-4105-80f1-7cb13a5269d9-chrome-pdf.html rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.788Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.789Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.790Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59916,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.838Z - debug: Skipping storing report. rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:16.840Z - info: Rendering request 3 finished in 1768 ms rootId=56qq9le5igs1m7g, id=56qq9le5igs1m7g
+2024-01-22T09:26:32.538Z - debug: OData query on templates
+2024-01-22T09:26:33.460Z - info: Render request 4 queued for execution and waiting for available worker rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:33.526Z - info: Starting rendering request 4 rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:33.527Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:33.528Z - debug: Inline data specified. rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:33.529Z - debug: Base url not specified, skipping its injection. rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:33.530Z - debug: Rendering engine handlebars rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:34.888Z - debug: Executing recipe html-to-xlsx rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:34.889Z - info: html-to-xlsx generation is starting rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:36.480Z - info: html-to-xlsx generation was finished rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:36.481Z - debug: Skipping storing report. rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:26:36.482Z - info: Rendering request 4 finished in 3024 ms rootId=ze2lpqsuf3gi7py, id=ze2lpqsuf3gi7py
+2024-01-22T09:27:57.073Z - debug: OData query on templates
+2024-01-22T09:27:57.858Z - info: Render request 5 queued for execution and waiting for available worker rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.876Z - info: Starting rendering request 5 rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.877Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.878Z - debug: Inline data specified. rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.879Z - debug: Base url not specified, skipping its injection. rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.880Z - debug: Rendering engine handlebars rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.934Z - debug: Executing recipe html-to-xlsx rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:57.936Z - info: html-to-xlsx generation is starting rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:59.407Z - info: html-to-xlsx generation was finished rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:59.408Z - debug: Skipping storing report. rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:27:59.409Z - info: Rendering request 5 finished in 1552 ms rootId=up533z5xhkjdb6h, id=up533z5xhkjdb6h
+2024-01-22T09:30:23.793Z - info: Render request 6 queued for execution and waiting for available worker rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.814Z - info: Starting rendering request 6 rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.815Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.816Z - debug: Inline data specified. rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.817Z - debug: Base url not specified, skipping its injection. rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.818Z - debug: Rendering engine handlebars rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.918Z - debug: Executing recipe html-to-xlsx rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:23.920Z - info: html-to-xlsx generation is starting rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:25.511Z - info: html-to-xlsx generation was finished rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:25.514Z - debug: Skipping storing report. rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:30:25.516Z - info: Rendering request 6 finished in 1718 ms rootId=vjb6ek6yiokfyfo, id=vjb6ek6yiokfyfo
+2024-01-22T09:32:03.490Z - info: Render request 7 queued for execution and waiting for available worker rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:03.530Z - info: Starting rendering request 7 rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:03.531Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:03.532Z - debug: Data item not defined for this template. rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:03.533Z - debug: Executing script orders-script (beforeRender) rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.367Z - debug: Base url not specified, skipping its injection. rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.368Z - debug: Rendering engine handlebars rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.470Z - debug: [36m(console:log) Pdf utils adding group field, value: "France"[39m userLevel=true, rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.471Z - debug: [36m(console:log) Pdf utils adding group field, value: "Germany"[39m userLevel=true, rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.472Z - debug: Executing recipe chrome-pdf rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.473Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.692Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/2deac038-6fb4-4fae-9441-898c2e50c05e-chrome-pdf.html rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.803Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.804Z - debug: Page request: GET (script) https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:05.804Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/2deac038-6fb4-4fae-9441-898c2e50c05e-chrome-pdf.html rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:08.309Z - debug: Page request finished: GET (script) 200 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:08.310Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:08.422Z - debug: Running chrome with params {"printBackground":true,"marginTop":"4cm","marginRight":"1.5cm","marginBottom":"1.5cm","marginLeft":"1.5cm","waitForJS":false,"timeout":58099,"margin":{"top":"4cm","right":"1.5cm","bottom":"1.5cm","left":"1.5cm"}} rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.240Z - info: pdf-utils is starting pdf processing rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.241Z - debug: pdf-utils detected 1 pdf operation(s) to process rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.242Z - debug: pdf-utils running pdf operation merge rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.257Z - info: Starting rendering (child) request rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.259Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.260Z - debug: Inline data specified. rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.261Z - debug: Base url not specified, skipping its injection. rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.262Z - debug: Rendering engine handlebars rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.340Z - debug: Executing recipe chrome-pdf rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.341Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.452Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/756b8568-f895-407a-98b5-9b3473f8d3be-chrome-pdf.html rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.453Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.453Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/756b8568-f895-407a-98b5-9b3473f8d3be-chrome-pdf.html rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.454Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.574Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","timeout":54193,"margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}} rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.576Z - debug: Skipping storing report. rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.577Z - info: Rendering (child) request finished in 6023 ms rootId=sezx8xiztjxxvwj, id=jh5yn9f02tiwkay
+2024-01-22T09:32:09.578Z - debug: pdf-utils postproces start rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.579Z - debug: pdf-utils postproces end rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.580Z - info: pdf-utils pdf processing was finished rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.580Z - debug: Skipping storing report. rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:09.581Z - info: Rendering request 7 finished in 6085 ms rootId=sezx8xiztjxxvwj, id=sezx8xiztjxxvwj
+2024-01-22T09:32:17.443Z - debug: OData query on templates
+2024-01-22T09:33:00.997Z - debug: OData query on data
+2024-01-22T09:33:05.593Z - debug: OData query on scripts
+2024-01-22T09:33:07.339Z - debug: OData query on assets
+2024-01-22T09:33:48.184Z - debug: OData query on templates
+2024-01-22T09:33:53.767Z - debug: OData query on assets
+2024-01-22T09:35:23.124Z - debug: OData query on templates
+2024-01-22T09:36:42.270Z - debug: OData query on templates
+2024-01-22T09:37:03.879Z - debug: OData query on templates
+2024-01-22T09:37:05.304Z - info: Render request 8 queued for execution and waiting for available worker rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.324Z - info: Starting rendering request 8 rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.325Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.326Z - debug: Inline data specified. rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.326Z - debug: Base url not specified, skipping its injection. rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.327Z - debug: Rendering engine handlebars rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.352Z - warn: Error when processing render request 8
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 27:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.total (sandbox.js:9:11)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+    at sandbox.js:27:18
+    at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+    at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+    at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+    at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.369Z - warn: Rendering request 8 finished with error in 51 ms rootId=61xf9t8v3wu7zci, id=61xf9t8v3wu7zci
+2024-01-22T09:37:05.371Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:38:51.921Z - info: Render request 9 queued for execution and waiting for available worker rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.941Z - info: Starting rendering request 9 rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.942Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.943Z - debug: Inline data specified. rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.944Z - debug: Base url not specified, skipping its injection. rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.945Z - debug: Rendering engine handlebars rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.963Z - warn: Error when processing render request 9
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 27:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.total (sandbox.js:9:11)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+    at sandbox.js:27:18
+    at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+    at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+    at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+    at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.977Z - warn: Rendering request 9 finished with error in 45 ms rootId=emt4ohcelu61761, id=emt4ohcelu61761
+2024-01-22T09:38:51.978Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:38:54.750Z - info: Render request 10 queued for execution and waiting for available worker rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.765Z - info: Starting rendering request 10 rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.766Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.767Z - debug: Inline data specified. rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.767Z - debug: Base url not specified, skipping its injection. rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.768Z - debug: Rendering engine handlebars rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.826Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:54.828Z - debug: Executing recipe chrome-pdf rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:55.151Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.341Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/7becd4f0-87f4-4fa7-bd87-d8a17b34097b-chrome-pdf.html rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.342Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/7becd4f0-87f4-4fa7-bd87-d8a17b34097b-chrome-pdf.html rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.342Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.343Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.344Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59958,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.415Z - debug: Skipping storing report. rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:38:56.416Z - info: Rendering request 10 finished in 1665 ms rootId=y8jps1xx600szbx, id=y8jps1xx600szbx
+2024-01-22T09:39:36.925Z - debug: OData query on scripts
+2024-01-22T09:39:57.304Z - debug: OData query on templates
+2024-01-22T09:40:39.302Z - info: Render request 11 queued for execution and waiting for available worker rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.320Z - info: Starting rendering request 11 rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.321Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.322Z - debug: Inline data specified. rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.323Z - debug: Base url not specified, skipping its injection. rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.324Z - debug: Rendering engine handlebars rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.446Z - debug: Executing recipe html-to-xlsx rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:39.447Z - info: html-to-xlsx generation is starting rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:40.920Z - info: html-to-xlsx generation was finished rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:40.920Z - debug: Skipping storing report. rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:40:40.921Z - info: Rendering request 11 finished in 1618 ms rootId=qorebqdi54tfsjm, id=qorebqdi54tfsjm
+2024-01-22T09:45:33.910Z - info: Render request 12 queued for execution and waiting for available worker rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.929Z - info: Starting rendering request 12 rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.930Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.931Z - debug: Inline data specified. rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.932Z - debug: Base url not specified, skipping its injection. rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.933Z - debug: Rendering engine handlebars rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.946Z - warn: Error when processing render request 12
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 27:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.total (sandbox.js:9:11)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+    at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+    at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:49:100)
+    at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+    at sandbox.js:27:18
+    at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+    at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+    at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+    at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+    at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+    at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.963Z - warn: Rendering request 12 finished with error in 38 ms rootId=i10imr7utjfv1hs, id=i10imr7utjfv1hs
+2024-01-22T09:45:33.965Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:47:06.498Z - info: Render request 13 queued for execution and waiting for available worker rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:06.534Z - info: Starting rendering request 13 rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:06.535Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:06.536Z - debug: Data item not defined for this template. rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:06.537Z - debug: Executing script orders-script (beforeRender) rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.920Z - debug: Base url not specified, skipping its injection. rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.921Z - debug: Rendering engine handlebars rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.967Z - debug: [36m(console:log) Pdf utils adding group field, value: "France"[39m userLevel=true, rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.968Z - debug: [36m(console:log) Pdf utils adding group field, value: "Germany"[39m userLevel=true, rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.970Z - debug: Executing recipe chrome-pdf rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:07.971Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.173Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/c61c636a-4132-4ce7-9990-6330a0e1a1b1-chrome-pdf.html rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.176Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.178Z - debug: Page request: GET (script) https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.179Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/c61c636a-4132-4ce7-9990-6330a0e1a1b1-chrome-pdf.html rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.181Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.182Z - debug: Page request finished: GET (script) 200 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.283Z - debug: Running chrome with params {"printBackground":true,"marginTop":"4cm","marginRight":"1.5cm","marginBottom":"1.5cm","marginLeft":"1.5cm","waitForJS":false,"timeout":58546,"margin":{"top":"4cm","right":"1.5cm","bottom":"1.5cm","left":"1.5cm"}} rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.520Z - info: pdf-utils is starting pdf processing rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.521Z - debug: pdf-utils detected 1 pdf operation(s) to process rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.522Z - debug: pdf-utils running pdf operation merge rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.535Z - info: Starting rendering (child) request rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.537Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.538Z - debug: Inline data specified. rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.539Z - debug: Base url not specified, skipping its injection. rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.540Z - debug: Rendering engine handlebars rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.632Z - debug: Executing recipe chrome-pdf rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.636Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.735Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/216d58e0-7984-4ce6-bb5c-c97c87728a6a-chrome-pdf.html rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.737Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.738Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/216d58e0-7984-4ce6-bb5c-c97c87728a6a-chrome-pdf.html rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.739Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.838Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","timeout":57939,"margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}} rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.840Z - debug: Skipping storing report. rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.841Z - info: Rendering (child) request finished in 2292 ms rootId=g6mnnxah4pxixyl, id=5eb9a4foe39qrk2
+2024-01-22T09:47:08.842Z - debug: pdf-utils postproces start rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.843Z - debug: pdf-utils postproces end rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.843Z - info: pdf-utils pdf processing was finished rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.844Z - debug: Skipping storing report. rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:08.845Z - info: Rendering request 13 finished in 2342 ms rootId=g6mnnxah4pxixyl, id=g6mnnxah4pxixyl
+2024-01-22T09:47:30.535Z - debug: OData query on templates
+2024-01-22T09:47:30.701Z - info: Render request 14 queued for execution and waiting for available worker rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:30.750Z - info: Starting rendering request 14 rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:30.752Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:30.753Z - debug: Data item not defined for this template. rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:30.754Z - debug: Executing script orders-script (beforeRender) rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.256Z - debug: Base url not specified, skipping its injection. rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.257Z - debug: Rendering engine handlebars rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.309Z - debug: [36m(console:log) Pdf utils adding group field, value: "France"[39m userLevel=true, rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.310Z - debug: [36m(console:log) Pdf utils adding group field, value: "Germany"[39m userLevel=true, rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.311Z - debug: Executing recipe chrome-pdf rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.313Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.419Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/30f32791-0e96-437f-9ffd-c16000473cc7-chrome-pdf.html rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.529Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.530Z - debug: Page request: GET (script) https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.531Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/30f32791-0e96-437f-9ffd-c16000473cc7-chrome-pdf.html rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:32.835Z - info: Render request 15 queued for execution and waiting for available worker rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:32.857Z - info: Starting rendering request 15 rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:32.858Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:32.858Z - debug: Inline data specified. rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:32.859Z - debug: Executing script orders-script (beforeRender) rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.037Z - debug: Base url not specified, skipping its injection. rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.038Z - debug: Rendering engine handlebars rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.107Z - debug: [36m(console:log) Pdf utils adding group field, value: "France"[39m userLevel=true, rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.108Z - debug: [36m(console:log) Pdf utils adding group field, value: "Germany"[39m userLevel=true, rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.109Z - debug: Executing recipe chrome-pdf rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.110Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.211Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/761466c0-10c7-4603-9d8e-d95dcee1e49a-chrome-pdf.html rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.213Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.213Z - debug: Page request: GET (script) https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.214Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/761466c0-10c7-4603-9d8e-d95dcee1e49a-chrome-pdf.html rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.312Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.313Z - debug: Page request finished: GET (script) 200 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.314Z - debug: Running chrome with params {"printBackground":true,"marginTop":"4cm","marginRight":"1.5cm","marginBottom":"1.5cm","marginLeft":"1.5cm","waitForJS":false,"timeout":58785,"margin":{"top":"4cm","right":"1.5cm","bottom":"1.5cm","left":"1.5cm"}} rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.502Z - info: pdf-utils is starting pdf processing rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.503Z - debug: pdf-utils detected 1 pdf operation(s) to process rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.504Z - debug: pdf-utils running pdf operation merge rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.505Z - info: Starting rendering (child) request rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.506Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.506Z - debug: Inline data specified. rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.507Z - debug: Base url not specified, skipping its injection. rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.508Z - debug: Rendering engine handlebars rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.524Z - debug: Executing recipe chrome-pdf rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.525Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.625Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/cfb4da90-b9dc-4d2a-b885-f24f1c4abdc3-chrome-pdf.html rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.744Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.745Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/cfb4da90-b9dc-4d2a-b885-f24f1c4abdc3-chrome-pdf.html rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.746Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.747Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","timeout":58314,"margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}} rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.748Z - debug: Skipping storing report. rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.748Z - info: Rendering (child) request finished in 1878 ms rootId=c5flwyxvs3kfam4, id=c65usxu9e4awrom
+2024-01-22T09:47:34.749Z - debug: pdf-utils postproces start rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.750Z - debug: pdf-utils postproces end rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.751Z - info: pdf-utils pdf processing was finished rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.752Z - debug: Skipping storing report. rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:34.752Z - info: Rendering request 15 finished in 1910 ms rootId=c5flwyxvs3kfam4, id=c5flwyxvs3kfam4
+2024-01-22T09:47:35.157Z - debug: Page request finished: GET (script) 200 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:35.269Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:35.380Z - debug: Running chrome with params {"printBackground":true,"marginTop":"4cm","marginRight":"1.5cm","marginBottom":"1.5cm","marginLeft":"1.5cm","waitForJS":false,"timeout":58426,"margin":{"top":"4cm","right":"1.5cm","bottom":"1.5cm","left":"1.5cm"}} rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:35.988Z - info: pdf-utils is starting pdf processing rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:35.989Z - debug: pdf-utils detected 1 pdf operation(s) to process rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:35.990Z - debug: pdf-utils running pdf operation merge rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:36.001Z - info: Starting rendering (child) request rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.002Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.003Z - debug: Inline data specified. rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.004Z - debug: Base url not specified, skipping its injection. rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.005Z - debug: Rendering engine handlebars rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.094Z - debug: Executing recipe chrome-pdf rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.095Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.193Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/2fc45ee1-3f33-44ca-9270-b40e79515d4f-chrome-pdf.html rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.195Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.196Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/2fc45ee1-3f33-44ca-9270-b40e79515d4f-chrome-pdf.html rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.196Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.197Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","timeout":54675,"margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}} rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.299Z - debug: Skipping storing report. rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.300Z - info: Rendering (child) request finished in 5546 ms rootId=qu5o1x60bfszehb, id=8jbzyozp8l9nojo
+2024-01-22T09:47:36.301Z - debug: pdf-utils postproces start rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:36.302Z - debug: pdf-utils postproces end rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:36.302Z - info: pdf-utils pdf processing was finished rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:36.303Z - debug: Skipping storing report. rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
+2024-01-22T09:47:36.304Z - info: Rendering request 14 finished in 5600 ms rootId=qu5o1x60bfszehb, id=qu5o1x60bfszehb
