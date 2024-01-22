@@ -10,5 +10,14 @@
     "express": {
       "inputRequestLimit": "50mb"
     }
-  }
-}
+  },
+    "sandbox": {
+      "allowedModules": ["https"]
+    },
+    
+      "trustUserCode": true
+    }
+    
+  
+  
+

@@ -2,4 +2,4 @@
 {"key":"chrome-network-idle-migrated","value":"true","creationDate":{"$$date":1705577110566},"modificationDate":{"$$date":1705577110566},"shortid":"Eg2oh4z","_id":"zzlr8Q04K6tlkX6L","$entitySet":"settings"}
 {"key":"sample-created","value":"true","creationDate":{"$$date":1705577110573},"modificationDate":{"$$date":1705577110573},"shortid":"vPwxCtV","_id":"MGJMgxrXb3Hg4bX7","$entitySet":"settings"}
 {"key":"office-preview-informed","value":"true","creationDate":{"$$date":1705584409165},"modificationDate":{"$$date":1705584409165},"shortid":"aAT3IgX","_id":"LNUkwdYbILgLsz1Y","$entitySet":"settings"}
-{"key":"profiler","value":"{\"mode\":\"full\"}","creationDate":{"$$date":1705754469562},"modificationDate":{"$$date":1705754472850},"shortid":"6kdwPZb","_id":"YHH0a9s6zHDqq4fg","$entitySet":"settings"}
+{"key":"profiler","value":"{\"mode\":\"standard\"}","creationDate":{"$$date":1705754469562},"modificationDate":{"$$date":1705909904971},"shortid":"6kdwPZb","_id":"YHH0a9s6zHDqq4fg","$entitySet":"settings"}

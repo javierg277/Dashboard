@@ -480,3 +480,1236 @@ Error: Error when evaluating engine handlebars for template /samples/Sales/sales
 2024-01-20T12:42:39.254Z - debug: OData query on profiles
 2024-01-20T12:42:39.265Z - debug: OData query on profiles
 2024-01-20T12:42:39.275Z - debug: OData query on templates
+2024-01-22T07:41:34.808Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
+2024-01-22T07:41:34.813Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-22T07:41:34.822Z - info: Extensions location cache C:\Users\franc\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2024-01-22T07:41:42.194Z - info: Found 35 extension(s)
+2024-01-22T07:41:42.258Z - debug: Writing extension locations cache to C:\Users\franc\AppData\Local\Temp\jsreport\core\locations.json
+2024-01-22T07:41:42.261Z - debug: Discovered 35 extensions
+2024-01-22T07:41:42.349Z - info: Using extension authentication@4.0.1
+2024-01-22T07:41:42.698Z - debug: Extension authentication@4.0.1 was disabled
+2024-01-22T07:41:42.699Z - info: Using extension base@4.0.0
+2024-01-22T07:41:42.705Z - info: Using extension child-templates@4.0.0
+2024-01-22T07:41:42.708Z - info: Using extension cli@4.0.2
+2024-01-22T07:41:42.711Z - info: Using extension components@4.0.0
+2024-01-22T07:41:42.717Z - info: Using extension data@4.0.0
+2024-01-22T07:41:42.719Z - info: Using extension express@4.0.1
+2024-01-22T07:41:43.279Z - info: Using extension freeze@4.0.0
+2024-01-22T07:41:43.282Z - info: Using extension fs-store@4.0.1
+2024-01-22T07:41:43.481Z - info: Using extension handlebars@4.0.1
+2024-01-22T07:41:43.484Z - info: Using extension import-export@4.0.2
+2024-01-22T07:41:43.508Z - info: Using extension jsrender@4.0.0
+2024-01-22T07:41:43.510Z - info: Using extension licensing@4.0.1
+2024-01-22T07:41:43.535Z - info: Using extension localization@4.0.1
+2024-01-22T07:41:43.539Z - info: Using extension npm@4.0.0
+2024-01-22T07:41:43.554Z - info: Using extension pdf-utils@4.0.2
+2024-01-22T07:41:43.559Z - info: Using extension reports@4.0.0
+2024-01-22T07:41:43.573Z - info: Using extension tags@4.0.1
+2024-01-22T07:41:43.579Z - info: Using extension text@4.0.0
+2024-01-22T07:41:43.585Z - info: Using extension version-control@4.0.0
+2024-01-22T07:41:43.639Z - info: Using extension assets@4.0.2
+2024-01-22T07:41:43.681Z - info: Using extension authorization@4.0.0
+2024-01-22T07:41:43.692Z - debug: Extension authorization@4.0.0 was disabled
+2024-01-22T07:41:43.693Z - info: Using extension browser-client@4.0.0
+2024-01-22T07:41:43.703Z - info: Using extension chrome-pdf@4.0.0
+2024-01-22T07:41:43.711Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-01-22T07:41:43.712Z - info: Using extension docx@4.1.1
+2024-01-22T07:41:43.721Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-22T07:41:44.501Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-22T07:41:44.503Z - info: Using extension pptx@4.1.0
+2024-01-22T07:41:44.508Z - info: Using extension scheduling@4.0.0
+2024-01-22T07:41:44.594Z - info: Using extension scripts@4.0.0
+2024-01-22T07:41:44.597Z - info: Using extension static-pdf@4.0.0
+2024-01-22T07:41:44.600Z - info: Using extension studio@4.0.2
+2024-01-22T07:41:44.813Z - info: Using extension xlsx@4.0.2
+2024-01-22T07:41:44.817Z - info: Using extension public-templates@4.0.0
+2024-01-22T07:41:44.820Z - debug: Extension public-templates@4.0.0 was disabled
+2024-01-22T07:41:44.821Z - info: Using extension sample-template@4.0.0
+2024-01-22T07:41:44.826Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-22T07:41:44.831Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-22T07:41:44.833Z - info: Using fs provider for template store.
+2024-01-22T07:41:44.845Z - info: fs store is persisting using fs for C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\data
+2024-01-22T07:41:44.865Z - info: fs store is loading data
+2024-01-22T07:41:44.918Z - info: fs store is initialized successfully
+2024-01-22T07:41:44.937Z - debug: studio default theme is: light
+2024-01-22T07:41:44.950Z - info: Creating default express app.
+2024-01-22T07:41:45.045Z - info: jsreport server successfully started on http port: 5488
+2024-01-22T07:41:45.050Z - info: Verifying license key free
+2024-01-22T07:41:45.053Z - info: Using free license
+2024-01-22T07:41:45.065Z - debug: Creating samples is disabled
+2024-01-22T07:41:45.068Z - info: Initializing worker threads
+2024-01-22T07:41:45.069Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-01-22T07:41:46.930Z - info: 2 worker threads initialized in 1862ms
+2024-01-22T07:41:46.931Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-22T07:41:46.933Z - info: reporter initialized
+2024-01-22T07:42:26.481Z - debug: OData query on templates
+2024-01-22T07:51:44.956Z - info: Switching full mode profiling back to standard to avoid performance degradation.
+2024-01-22T08:03:26.414Z - debug: OData query on templates
+2024-01-22T08:03:26.438Z - debug: OData query on settings
+2024-01-22T08:03:26.444Z - debug: OData query on folders
+2024-01-22T08:03:26.454Z - debug: OData query on components
+2024-01-22T08:03:26.465Z - debug: OData query on data
+2024-01-22T08:03:26.476Z - debug: OData query on tags
+2024-01-22T08:03:26.483Z - debug: OData query on assets
+2024-01-22T08:03:26.494Z - debug: OData query on scripts
+2024-01-22T08:03:26.502Z - debug: OData query on schedules
+2024-01-22T08:03:26.549Z - debug: OData query on templates
+2024-01-22T08:03:26.575Z - debug: OData query on profiles
+2024-01-22T08:03:26.598Z - debug: OData query on profiles
+2024-01-22T08:03:26.624Z - debug: OData query on profiles
+2024-01-22T08:03:26.644Z - debug: OData query on profiles
+2024-01-22T08:03:26.659Z - debug: OData query on profiles
+2024-01-22T08:03:26.667Z - debug: OData query on profiles
+2024-01-22T08:03:26.675Z - debug: OData query on templates
+2024-01-22T08:04:01.655Z - debug: OData query on templates
+2024-01-22T08:06:40.873Z - debug: OData query on templates
+2024-01-22T08:08:15.875Z - debug: OData query on scripts
+2024-01-22T08:08:16.830Z - debug: OData query on templates
+2024-01-22T08:15:20.453Z - debug: OData query on templates
+2024-01-22T08:18:40.520Z - debug: OData query on data
+2024-01-22T08:20:37.233Z - debug: OData query on templates
+2024-01-22T08:20:40.309Z - info: Render request 1 queued for execution and waiting for available worker rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:40.354Z - info: Starting rendering request 1 rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:40.355Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:40.469Z - debug: Inline data specified. rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:40.470Z - debug: Base url not specified, skipping its injection. rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:40.471Z - debug: Rendering engine handlebars rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:41.383Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:41.401Z - warn: Rendering request 1 finished with error in 1078 ms rootId=cmlwercsi5fpltc, id=cmlwercsi5fpltc
+2024-01-22T08:20:41.405Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:20:54.872Z - debug: OData query on templates
+2024-01-22T08:20:56.640Z - info: Render request 2 queued for execution and waiting for available worker rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:56.741Z - info: Starting rendering request 2 rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:56.742Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:56.743Z - debug: Inline data specified. rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:56.744Z - debug: Base url not specified, skipping its injection. rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:56.745Z - debug: Rendering engine handlebars rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:57.445Z - warn: Error when processing render request 2
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:57.462Z - warn: Rendering request 2 finished with error in 806 ms rootId=z729uojkbquy6li, id=z729uojkbquy6li
+2024-01-22T08:20:57.464Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:20:57.569Z - info: Render request 3 queued for execution and waiting for available worker rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.592Z - info: Starting rendering request 3 rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.594Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.595Z - debug: Inline data specified. rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.596Z - debug: Base url not specified, skipping its injection. rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.596Z - debug: Rendering engine handlebars rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.822Z - warn: Error when processing render request 3
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.839Z - warn: Rendering request 3 finished with error in 259 ms rootId=a90wmdabzwdql3n, id=a90wmdabzwdql3n
+2024-01-22T08:20:57.841Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:24:41.916Z - debug: OData query on assets
+2024-01-22T08:35:44.600Z - debug: OData query on templates
+2024-01-22T08:35:49.481Z - info: Render request 4 queued for execution and waiting for available worker rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.500Z - info: Starting rendering request 4 rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.501Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.502Z - debug: Inline data specified. rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.503Z - debug: Base url not specified, skipping its injection. rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.503Z - debug: Rendering engine handlebars rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.707Z - warn: Error when processing render request 4
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.722Z - warn: Rendering request 4 finished with error in 228 ms rootId=n7jourqc1kmlo74, id=n7jourqc1kmlo74
+2024-01-22T08:35:49.724Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:40:34.601Z - debug: OData query on templates
+2024-01-22T08:40:37.065Z - info: Render request 5 queued for execution and waiting for available worker rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.083Z - info: Starting rendering request 5 rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.083Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.084Z - debug: Inline data specified. rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.085Z - debug: Base url not specified, skipping its injection. rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.085Z - debug: Rendering engine handlebars rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.279Z - warn: Error when processing render request 5
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.292Z - warn: Rendering request 5 finished with error in 215 ms rootId=pkh4gwifu86sdpz, id=pkh4gwifu86sdpz
+2024-01-22T08:40:37.294Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:40:52.329Z - debug: OData query on templates
+2024-01-22T08:40:57.552Z - debug: OData query on templates
+2024-01-22T08:40:59.397Z - debug: OData query on templates
+2024-01-22T08:40:59.724Z - debug: OData query on templates
+2024-01-22T08:40:59.996Z - debug: OData query on templates
+2024-01-22T08:41:32.205Z - info: Render request 6 queued for execution and waiting for available worker rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.237Z - info: Starting rendering request 6 rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.237Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.238Z - debug: Adding sample data Sy5S19ncg rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.239Z - debug: Base url not specified, skipping its injection. rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.239Z - debug: Rendering engine handlebars rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.613Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:32.614Z - debug: Executing recipe chrome-pdf rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:33.738Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.158Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/a94c7a07-9f9b-4730-a27f-4233ad3c6264-chrome-pdf.html rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.161Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/a94c7a07-9f9b-4730-a27f-4233ad3c6264-chrome-pdf.html rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.162Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.163Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.271Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59933,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.287Z - debug: Skipping storing report. rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:35.289Z - info: Rendering request 6 finished in 3084 ms rootId=puyb6vuzlt5p53h, id=puyb6vuzlt5p53h
+2024-01-22T08:41:41.526Z - debug: OData query on templates
+2024-01-22T08:41:50.351Z - debug: OData query on templates
+2024-01-22T08:44:14.308Z - debug: OData query on data
+2024-01-22T08:44:37.429Z - debug: OData query on templates
+2024-01-22T08:44:38.289Z - info: Render request 7 queued for execution and waiting for available worker rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.308Z - info: Starting rendering request 7 rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.309Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.310Z - debug: Inline data specified. rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.310Z - debug: Base url not specified, skipping its injection. rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.311Z - debug: Rendering engine handlebars rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.507Z - warn: Error when processing render request 7
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.522Z - warn: Rendering request 7 finished with error in 219 ms rootId=6v3uc7wmd5vipd4, id=6v3uc7wmd5vipd4
+2024-01-22T08:44:38.526Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:46:08.348Z - debug: OData query on templates
+2024-01-22T08:46:09.731Z - info: Render request 8 queued for execution and waiting for available worker rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.750Z - info: Starting rendering request 8 rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.751Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.752Z - debug: Inline data specified. rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.753Z - debug: Base url not specified, skipping its injection. rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.753Z - debug: Rendering engine handlebars rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.953Z - warn: Error when processing render request 8
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.966Z - warn: Rendering request 8 finished with error in 224 ms rootId=pxm7oiv513wwn3m, id=pxm7oiv513wwn3m
+2024-01-22T08:46:09.967Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T08:47:11.516Z - debug: OData query on templates
+2024-01-22T08:47:12.747Z - info: Render request 9 queued for execution and waiting for available worker rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.767Z - info: Starting rendering request 9 rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.767Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.768Z - debug: Inline data specified. rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.769Z - debug: Base url not specified, skipping its injection. rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.769Z - debug: Rendering engine handlebars rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.789Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:12.790Z - debug: Executing recipe chrome-pdf rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:13.008Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.083Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/818d133b-aae6-41e1-ba76-8b032a70b83c-chrome-pdf.html rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.184Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/818d133b-aae6-41e1-ba76-8b032a70b83c-chrome-pdf.html rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.185Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.186Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.187Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59954,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.242Z - debug: Skipping storing report. rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:14.243Z - info: Rendering request 9 finished in 1497 ms rootId=z70zgfw7kj5s232, id=z70zgfw7kj5s232
+2024-01-22T08:47:19.244Z - info: Render request 10 queued for execution and waiting for available worker rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.261Z - info: Starting rendering request 10 rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.262Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.263Z - debug: Inline data specified. rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.264Z - debug: Base url not specified, skipping its injection. rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.264Z - debug: Rendering engine handlebars rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.360Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.361Z - debug: Executing recipe chrome-pdf rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.362Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.470Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/78555086-3dda-4246-a1e7-c52cfee8e1f5-chrome-pdf.html rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.472Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/78555086-3dda-4246-a1e7-c52cfee8e1f5-chrome-pdf.html rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.473Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.473Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.474Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59962,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.528Z - debug: Skipping storing report. rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:47:19.529Z - info: Rendering request 10 finished in 285 ms rootId=5iieylu1nxh1u87, id=5iieylu1nxh1u87
+2024-01-22T08:59:00.061Z - info: Render request 11 queued for execution and waiting for available worker rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.083Z - info: Starting rendering request 11 rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.084Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.085Z - debug: Inline data specified. rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.086Z - debug: Base url not specified, skipping its injection. rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.086Z - debug: Rendering engine handlebars rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.155Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.157Z - debug: Executing recipe chrome-pdf rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:00.157Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.328Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/e0de9a59-6d31-4e4b-92dc-9e4fdaeb84dd-chrome-pdf.html rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.434Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/e0de9a59-6d31-4e4b-92dc-9e4fdaeb84dd-chrome-pdf.html rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.434Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.435Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.436Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59956,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.495Z - debug: Skipping storing report. rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:01.497Z - info: Rendering request 11 finished in 1436 ms rootId=x3igpsx7xeajn7o, id=x3igpsx7xeajn7o
+2024-01-22T08:59:17.599Z - debug: OData query on assets
+2024-01-22T09:04:56.168Z - debug: OData query on templates
+2024-01-22T09:05:29.709Z - debug: OData query on templates
+2024-01-22T09:05:42.801Z - info: Render request 12 queued for execution and waiting for available worker rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.819Z - info: Starting rendering request 12 rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.820Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.821Z - debug: Inline data specified. rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.822Z - debug: Base url not specified, skipping its injection. rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.822Z - debug: Rendering engine handlebars rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.862Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.863Z - debug: Executing recipe chrome-pdf rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:42.863Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.406Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/ddaf3ed3-44ea-4193-bf4c-86ac30b533ad-chrome-pdf.html rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.518Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/ddaf3ed3-44ea-4193-bf4c-86ac30b533ad-chrome-pdf.html rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.519Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.520Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.521Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59960,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.549Z - debug: Skipping storing report. rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:05:43.550Z - info: Rendering request 12 finished in 748 ms rootId=pzljpxhuib6vxo9, id=pzljpxhuib6vxo9
+2024-01-22T09:06:31.341Z - debug: OData query on scripts
+2024-01-22T09:07:37.502Z - debug: OData query on templates
+2024-01-22T09:07:46.091Z - info: Render request 13 queued for execution and waiting for available worker rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.124Z - info: Starting rendering request 13 rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.124Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.125Z - debug: Inline data specified. rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.125Z - debug: Executing script orders-script (beforeRender) rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.173Z - warn: Error when processing render request 13
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:2:15)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+  at async Scripts._runScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+  at async Scripts.handleBeforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:64:7)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.180Z - warn: Rendering request 13 finished with error in 84 ms rootId=p9ypj0qq7y3p2wf, id=p9ypj0qq7y3p2wf
+2024-01-22T09:07:46.182Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:07:54.646Z - debug: OData query on templates
+2024-01-22T09:07:58.836Z - debug: OData query on templates
+2024-01-22T09:08:00.959Z - debug: OData query on data
+2024-01-22T09:08:20.570Z - debug: OData query on templates
+2024-01-22T09:08:22.383Z - info: Render request 14 queued for execution and waiting for available worker rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.414Z - info: Starting rendering request 14 rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.415Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.417Z - debug: Inline data specified. rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.418Z - debug: Base url not specified, skipping its injection. rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.419Z - debug: Rendering engine handlebars rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.745Z - warn: Error when processing render request 14
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.752Z - warn: Rendering request 14 finished with error in 364 ms rootId=9kzm1nc6fb2hco3, id=9kzm1nc6fb2hco3
+2024-01-22T09:08:22.753Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:08:46.546Z - debug: OData query on templates
+2024-01-22T09:08:49.326Z - info: Render request 15 queued for execution and waiting for available worker rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.345Z - info: Starting rendering request 15 rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.346Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false } rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.347Z - debug: Inline data specified. rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.348Z - debug: Base url not specified, skipping its injection. rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.348Z - debug: Rendering engine handlebars rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.577Z - warn: Error when processing render request 15
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.588Z - warn: Rendering request 15 finished with error in 254 ms rootId=cyoixmryl5xq6qy, id=cyoixmryl5xq6qy
+2024-01-22T09:08:49.590Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:09:20.085Z - info: Render request 16 queued for execution and waiting for available worker rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.113Z - info: Starting rendering request 16 rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.116Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.117Z - debug: Inline data specified. rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.118Z - debug: Base url not specified, skipping its injection. rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.119Z - debug: Rendering engine handlebars rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.178Z - warn: Error when processing render request 16
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:20.190Z - warn: Rendering request 16 finished with error in 98 ms rootId=cjqjgx3f9xq03b5, id=cjqjgx3f9xq03b5
+2024-01-22T09:09:25.843Z - info: Render request 17 queued for execution and waiting for available worker rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.883Z - info: Starting rendering request 17 rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.885Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.886Z - debug: Inline data specified. rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.887Z - debug: Base url not specified, skipping its injection. rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.888Z - debug: Rendering engine handlebars rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.978Z - warn: Error when processing render request 17
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:25.986Z - warn: Rendering request 17 finished with error in 137 ms rootId=r8ypkydjvonxqkw, id=r8ypkydjvonxqkw
+2024-01-22T09:09:32.728Z - info: Render request 18 queued for execution and waiting for available worker rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.754Z - info: Starting rendering request 18 rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.755Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.756Z - debug: Data item not defined for this template. rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.769Z - debug: Executing script orders-script (beforeRender) rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.791Z - warn: Error when processing render request 18
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:2:15)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+  at async Scripts._runScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+  at async Scripts.handleBeforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:64:7)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:32.801Z - warn: Rendering request 18 finished with error in 64 ms rootId=pdct4lhqkuxp4vx, id=pdct4lhqkuxp4vx
+2024-01-22T09:09:57.422Z - debug: OData query on templates
+2024-01-22T09:09:58.785Z - info: Render request 19 queued for execution and waiting for available worker rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:58.806Z - info: Starting rendering request 19 rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:58.807Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:58.808Z - debug: Inline data specified. rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:58.808Z - debug: Base url not specified, skipping its injection. rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:58.809Z - debug: Rendering engine handlebars rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:59.007Z - warn: Error when processing render request 19
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+
+(sandbox.js line 9:11)
+
+   7 | function total(items) {
+   8 |     var sum = 0
+>  9 |     items.forEach(function (i) {
+     |           ^
+  10 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  11 |         sum += i.price
+  12 |     })
+
+(sandbox.js line 3100:18)(sandbox.js line 3100:18)
+TypeError: Cannot read properties of undefined (reading 'forEach')
+  at Object.total (sandbox.js:9:11)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:368:23)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+wrapped by:
+Error: "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at getEnhancedHelperError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:364:54)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:370:15)
+  at Object.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:347:27)
+  at Object.wrapper (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\ses\index.js:6142:27)), <anonymous>:49:100)
+  at main (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40)
+  at eval (sandbox.js:3100:18)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "total" helper call failed
+(because) cannot read properties of undefined (reading 'forEach')
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:59.025Z - warn: Rendering request 19 finished with error in 224 ms rootId=nh26pcoq7jve3hj, id=nh26pcoq7jve3hj
+2024-01-22T09:09:59.026Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:10:10.691Z - debug: OData query on templates
+2024-01-22T09:10:11.258Z - info: Render request 20 queued for execution and waiting for available worker rootId=qtnjdfo2v2h6xxc, id=qtnjdfo2v2h6xxc
+2024-01-22T09:10:11.271Z - info: Starting rendering request 20 rootId=qtnjdfo2v2h6xxc, id=qtnjdfo2v2h6xxc
+2024-01-22T09:10:11.272Z - warn: Error when processing render request 20
+(because) unable to find specified template (Invoice-main)
+Error: Unable to find specified template (Invoice-main)
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at AsyncFunction.<anonymous> (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\templates.js:51:28)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=qtnjdfo2v2h6xxc, id=qtnjdfo2v2h6xxc
+2024-01-22T09:10:11.276Z - warn: Rendering request 20 finished with error in 14 ms rootId=qtnjdfo2v2h6xxc, id=qtnjdfo2v2h6xxc
+2024-01-22T09:10:11.278Z - warn: Error during processing request at http://localhost:5488/api/report
+2024-01-22T09:10:15.372Z - debug: OData query on templates
+2024-01-22T09:10:16.267Z - info: Render request 21 queued for execution and waiting for available worker rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.288Z - info: Starting rendering request 21 rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.291Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.292Z - debug: Inline data specified. rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.293Z - debug: Base url not specified, skipping its injection. rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.294Z - debug: Rendering engine handlebars rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.401Z - debug: [36m(console:log) Calculating item Website design; you should see this message in debug run[39m userLevel=true, rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.402Z - debug: Executing recipe chrome-pdf rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.403Z - debug: Converting with chrome HeadlessChrome/117.0.5938.149 using chrome-pool strategy rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.512Z - debug: Page request: GET (document) file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/713249b2-25cb-478f-a694-e58434fca3aa-chrome-pdf.html rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.513Z - debug: Page request finished: GET (document) 200 file:///C:/Users/franc/AppData/Local/Temp/jsreport/autocleanup/713249b2-25cb-478f-a694-e58434fca3aa-chrome-pdf.html rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.514Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.515Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2... rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.515Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","timeout":59953,"margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}} rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.607Z - debug: Skipping storing report. rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:10:16.608Z - info: Rendering request 21 finished in 342 ms rootId=25jbxdj9l5enjd0, id=25jbxdj9l5enjd0
+2024-01-22T09:19:51.277Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
+2024-01-22T09:19:51.280Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-22T09:19:51.290Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-22T09:19:51.348Z - info: Found 35 extension(s)
+2024-01-22T09:19:51.414Z - debug: Writing extension locations cache to C:\Users\franc\AppData\Local\Temp\jsreport\core\locations.json
+2024-01-22T09:19:51.418Z - debug: Discovered 35 extensions
+2024-01-22T09:19:51.482Z - info: Using extension authentication@4.0.1
+2024-01-22T09:19:51.814Z - debug: Extension authentication@4.0.1 was disabled
+2024-01-22T09:19:51.815Z - info: Using extension base@4.0.0
+2024-01-22T09:19:51.820Z - info: Using extension child-templates@4.0.0
+2024-01-22T09:19:51.823Z - info: Using extension cli@4.0.2
+2024-01-22T09:19:51.826Z - info: Using extension components@4.0.0
+2024-01-22T09:19:51.829Z - info: Using extension data@4.0.0
+2024-01-22T09:19:51.832Z - info: Using extension express@4.0.1
+2024-01-22T09:19:52.345Z - info: Using extension freeze@4.0.0
+2024-01-22T09:19:52.348Z - info: Using extension fs-store@4.0.1
+2024-01-22T09:19:52.506Z - info: Using extension handlebars@4.0.1
+2024-01-22T09:19:52.509Z - info: Using extension import-export@4.0.2
+2024-01-22T09:19:52.529Z - info: Using extension jsrender@4.0.0
+2024-01-22T09:19:52.532Z - info: Using extension licensing@4.0.1
+2024-01-22T09:19:52.550Z - info: Using extension localization@4.0.1
+2024-01-22T09:19:52.552Z - info: Using extension npm@4.0.0
+2024-01-22T09:19:52.563Z - info: Using extension pdf-utils@4.0.2
+2024-01-22T09:19:52.569Z - info: Using extension reports@4.0.0
+2024-01-22T09:19:52.576Z - info: Using extension tags@4.0.1
+2024-01-22T09:19:52.585Z - info: Using extension text@4.0.0
+2024-01-22T09:19:52.588Z - info: Using extension version-control@4.0.0
+2024-01-22T09:19:52.627Z - info: Using extension assets@4.0.2
+2024-01-22T09:19:52.659Z - info: Using extension authorization@4.0.0
+2024-01-22T09:19:52.668Z - debug: Extension authorization@4.0.0 was disabled
+2024-01-22T09:19:52.669Z - info: Using extension browser-client@4.0.0
+2024-01-22T09:19:52.673Z - info: Using extension chrome-pdf@4.0.0
+2024-01-22T09:19:52.678Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-01-22T09:19:52.678Z - info: Using extension docx@4.1.1
+2024-01-22T09:19:52.683Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-22T09:19:53.198Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-22T09:19:53.199Z - info: Using extension pptx@4.1.0
+2024-01-22T09:19:53.202Z - info: Using extension scheduling@4.0.0
+2024-01-22T09:19:53.265Z - info: Using extension scripts@4.0.0
+2024-01-22T09:19:53.268Z - info: Using extension static-pdf@4.0.0
+2024-01-22T09:19:53.270Z - info: Using extension studio@4.0.2
+2024-01-22T09:19:53.418Z - info: Using extension xlsx@4.0.2
+2024-01-22T09:19:53.421Z - info: Using extension public-templates@4.0.0
+2024-01-22T09:19:53.423Z - debug: Extension public-templates@4.0.0 was disabled
+2024-01-22T09:19:53.424Z - info: Using extension sample-template@4.0.0
+2024-01-22T09:19:53.427Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-22T09:19:53.430Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-22T09:19:53.431Z - info: Using fs provider for template store.
+2024-01-22T09:19:53.439Z - info: fs store is persisting using fs for C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\data
+2024-01-22T09:19:53.453Z - info: fs store is loading data
+2024-01-22T09:19:53.487Z - info: fs store is initialized successfully
+2024-01-22T09:19:53.501Z - debug: studio default theme is: light
+2024-01-22T09:19:53.510Z - info: Creating default express app.
+2024-01-22T09:19:53.596Z - info: jsreport server successfully started on http port: 5488
+2024-01-22T09:19:53.599Z - info: Verifying license key free
+2024-01-22T09:19:53.601Z - info: Using free license
+2024-01-22T09:19:53.608Z - debug: Creating samples is disabled
+2024-01-22T09:19:53.609Z - info: Initializing worker threads
+2024-01-22T09:19:53.610Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-01-22T09:19:54.895Z - info: 2 worker threads initialized in 1286ms
+2024-01-22T09:19:54.895Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-22T09:19:54.896Z - info: reporter initialized
+2024-01-22T09:20:22.300Z - info: Render request 1 queued for execution and waiting for available worker rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:22.359Z - info: Starting rendering request 1 rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:22.361Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:22.482Z - debug: Inline data specified. rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:22.483Z - debug: Base url not specified, skipping its injection. rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:22.484Z - debug: Rendering engine handlebars rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:23.135Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:23.145Z - warn: Rendering request 1 finished with error in 840 ms rootId=bi4co9773lg69h9, id=bi4co9773lg69h9
+2024-01-22T09:20:34.839Z - debug: OData query on templates
+2024-01-22T09:20:41.037Z - info: Render request 2 queued for execution and waiting for available worker rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.120Z - info: Starting rendering request 2 rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.121Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.122Z - debug: Data item not defined for this template. rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.123Z - debug: Executing script orders-script (beforeRender) rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.551Z - warn: Error when processing render request 2
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:2:15)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\executeScript.js:122:12)
+  at async Scripts._runScript (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:140:30)
+  at async Scripts.handleBeforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-scripts\lib\worker.js:64:7)
+  at async ListenerCollection.fire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+  at async beforeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:24:5)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:141:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:20:41.557Z - warn: Rendering request 2 finished with error in 516 ms rootId=0l22v78wpfwtr2o, id=0l22v78wpfwtr2o
+2024-01-22T09:22:29.416Z - debug: OData query on templates
+2024-01-22T09:22:30.834Z - info: Render request 3 queued for execution and waiting for available worker rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.899Z - info: Starting rendering request 3 rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.901Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.902Z - debug: Adding sample data B1lSTrt6NB rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.903Z - debug: Base url not specified, skipping its injection. rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.904Z - debug: Rendering engine handlebars rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.984Z - warn: Error when processing render request 3
+(because) error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+
+(sandbox.js line 1:165)
+
+> 1 | const moment = require('moment')
+    |                                 ^
+  2 | const rowOffset = 6
+  3 |
+  4 | function nowStr () {
+
+
+Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at sandboxRequire (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\requireSandbox.js:53:19)
+  at Object.require (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:89:30)
+  at eval (sandbox.js:1:165)
+  at async run (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:195:14)
+  at async executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:287:14)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Sales/sales-main
+(because) require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["moment"] }
+  at module.exports (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+  at executeEngine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:310:33)
+  at async engine.engine (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+  at async invokeRender (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:22:30.991Z - warn: Rendering request 3 finished with error in 151 ms rootId=z7unxhc45kf6m0c, id=z7unxhc45kf6m0c
+2024-01-22T09:23:14.598Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.2)
+2024-01-22T09:23:14.601Z - info: Searching for available extensions in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
+2024-01-22T09:23:14.609Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\franc\OneDrive\Escritorio\Angula\Dashboard\
