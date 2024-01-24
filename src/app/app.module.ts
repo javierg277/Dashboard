@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgxExtendedPdfViewerModule,
     AppRoutingModule  
   ],
 

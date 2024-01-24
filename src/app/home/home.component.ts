@@ -2,34 +2,81 @@
 import { Component } from '@angular/core';
 import { JsReportService } from '../js.service';
 import { HttpClient } from '@angular/common/http';
-import { forkJoin } from 'rxjs';
+import { FormArray, FormControl, FormGroup } from '@angular/forms';
 
 
 @Component({
   selector: 'app-home',
-  template: `
-  <button (click)="generarInformeInvoice()">Generar PDF Invoice-Main</button>
-  <button (click)="generarInformeSales()">Generar Excel Sales-Main</button>
-  <button (click)="generarInformeOrder()">Generar PDF  Orders-Main</button>
-  <button (click)="showTemplates()">Mostrar Templates</button>
-`
+  templateUrl: './home.component.html',
+  
 })
 export class HomeComponent {
-  constructor(private http: HttpClient,private jsReportService: JsReportService) { }
+  paramsForm: FormGroup;
+  
+
+  constructor(private http: HttpClient, private jsReportService: JsReportService) {
+    this.paramsForm = new FormGroup({
+      sellerName: new FormControl(''),
+      sellerRoad: new FormControl(''),
+      sellerCountry: new FormControl(''),
+      buyerName: new FormControl(''),
+      buyerRoad: new FormControl(''),
+      buyerCountry: new FormControl(''),
+      invoiceNumber: new FormControl(''),
+    });
+  }
+  formData = {
+    seller: {
+      name: '',
+      road: '',
+      country: '',
+    },
+    buyer: {
+      name: '',
+      road: '',
+      country: '',
+    },
+    number: ''
+  };
+  
+
+
+  pdfFile: Blob = new Blob();
+
+  
+  
 
   ngOnInit() {
     this.showTemplates();
   }
-  generarInformeOrder() {
-    const templateName = 'orders-main';
-    const datosInforme = {}; // Pasar un objeto vacío o cualquier configuración adicional que pueda requerir tu plantilla
+  submitForm() {
+    const templateName = 'invoice-main';
+    const datosInforme = this.formData;
+    console.log(datosInforme);
+
+    
+
   
     this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
       (respuesta) => {
-        // Abre el PDF en una nueva ventana
-        const blob = new Blob([respuesta], { type: 'application/pdf' });
-        const url = window.URL.createObjectURL(blob);
-        window.open(url);
+        // Guarda el PDF como un Blob
+        this.pdfFile = new Blob([respuesta], { type: 'application/pdf' });
+      },
+      (error) => {
+        // Manejar errores
+        console.error('Error al generar el informe', error);
+      }
+    );
+  }
+  
+  generarInformeOrder() {
+    const templateName = 'orders-main';
+    const datosInforme = {};
+  
+    this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
+      (respuesta) => {
+        // Guarda el PDF como un Blob
+        this.pdfFile = new Blob([respuesta], { type: 'application/pdf' });
       },
       (error) => {
         // Manejar errores
@@ -40,33 +87,36 @@ export class HomeComponent {
 
   generarInformeInvoice() {
     const templateName = 'invoice-main';
-  
-    forkJoin({
-      api1: this.http.get('localhost:7111/Cliente/listarnumber'),
-      api2: this.http.get('localhost:7111/Cliente/listar'),
-      api3: this.http.get('localhost:7111/Cliente/listar2'),
-      api4: this.http.get('localhost:7111/Cliente/listar3')
-    }).subscribe(res => {
-      const datosInforme = {
-        ...res.api1,
-        ...res.api2,
-        ...res.api3,
-        ...res.api4
-      };
-  
-      this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
-        (respuesta) => {
-          // Abre el PDF en una nueva ventana
-          const blob = new Blob([respuesta], { type: 'application/pdf' });
-          const url = window.URL.createObjectURL(blob);
-          window.open(url);
+    const datosInforme = {
+      
+        "number": "123",
+        "seller": {
+            "name": "Next Step Webs, Inc.",
+            "road": "12345 Sunny Road",
+            "country": "Sunnyville, TX 12345"
         },
-        (error) => {
-          // Manejar errores
-          console.error('Error al generar el informe', error);
-        }
-      );
-    });
+        "buyer": {
+            "name": "Acme Corp.",
+            "road": "16 Johnson Road",
+            "country": "Paris, France 8060"
+        },
+        "items": [{
+            "name": "Website design",
+            "price": 300
+        }]
+    
+    };
+  
+    this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
+      (respuesta) => {
+        // Guarda el PDF como un Blob
+        this.pdfFile = new Blob([respuesta], { type: 'application/pdf' });
+      },
+      (error) => {
+        // Manejar errores
+        console.error('Error al generar el informe', error);
+      }
+    );
   }
     generarInformeSales() {
       const templateName = 'sales-main';

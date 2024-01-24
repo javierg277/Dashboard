@@ -1,1 +1,54 @@
-<p>home works!</p>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    </head>
+    <body>
+        <form (submit)="submitForm()" method="post">
+            <h3>Seller Information</h3>
+            <label>
+              Name:
+              <input type="text" name="sellerName" [(ngModel)]="formData.seller.name">
+            </label>
+            <label>
+              Road:
+              <input type="text" name="sellerRoad" [(ngModel)]="formData.seller.road">
+            </label>
+            <label>
+              Country:
+              <input type="text"name="sellerCountry" [(ngModel)]="formData.seller.country">
+            </label>
+          
+            <h3>Buyer Information</h3>
+            <label>
+              Name:
+              <input type="text" name="buyerName" [(ngModel)]="formData.buyer.name">
+            </label>
+            <label>
+              Road:
+              <input type="text" name="buyerRoad" [(ngModel)]="formData.buyer.road">
+            </label>
+            <label>
+              Country:
+              <input type="text" name="buyerCountry" [(ngModel)]="formData.buyer.country">
+            </label>
+          
+            <h3>Invoice Information</h3>
+            <label>
+              Invoice Number:
+              <input type="text" name="invoiceNumber" [(ngModel)]="formData.number">
+            </label>
+          
+            <!-- For articles, you might need a different approach, like a dynamic form or a data entry dialog -->
+          
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
+
+
+
+<button (click)="generarInformeInvoice()">Generar PDF Invoice-Main</button>
+<button (click)="generarInformeSales()">Generar Excel Sales-Main</button>
+<button (click)="generarInformeOrder()">Generar PDF  Orders-Main</button>
+<button (click)="showTemplates()">Mostrar Templates</button>
+<ngx-extended-pdf-viewer [src]="pdfFile" useBrowserLocale="true" height="80vh" [showDownloadButton]="true"></ngx-extended-pdf-viewer>
