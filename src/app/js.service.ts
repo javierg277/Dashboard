@@ -11,7 +11,6 @@ export class JsReportService {
     private jsReportApiUrl = 'http://localhost:5488';
 
   constructor(private http: HttpClient) {}
-
   // Function to generate a report
   generarInforme(templateName: string, datos: any): Observable<any> {
     const url = `${this.jsReportApiUrl}/api/report`;

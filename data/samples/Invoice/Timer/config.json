@@ -1,0 +1,19 @@
+{
+    "shortid": "OYQdltnQd",
+    "name": "Timer",
+    "cron": "0 12 1 * *",
+    "templateShortid": "rkJTnK2ce",
+    "creationDate": {
+        "$$date": 1706616030684
+    },
+    "modificationDate": {
+        "$$date": 1706616030684
+    },
+    "state": "planned",
+    "enabled": true,
+    "nextRun": {
+        "$$date": 1706785200000
+    },
+    "_id": "IQqByhh3reVzLBma",
+    "$entitySet": "schedules"
+}
