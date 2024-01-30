@@ -38,7 +38,18 @@
               <input type="text" name="invoiceNumber" [(ngModel)]="formData.number">
             </label>
           
-            <!-- For articles, you might need a different approach, like a dynamic form or a data entry dialog -->
+            <h3>Articles</h3>
+            <div *ngFor="let article of formData.articles; let i = index">
+              <label>
+                Name:
+                <input type="text" [(ngModel)]="formData.articles[i].name" name="articleName{{i}}">
+              </label>
+              <label>
+                Price:
+                <input type="number" [(ngModel)]="formData.articles[i].price" name="articlePrice{{i}}">
+              </label>
+            </div>
+            <button  type="button" (click)="addArticle()">Añadir articulo</button>
           
             <button type="submit">Submit</button>
         </form>

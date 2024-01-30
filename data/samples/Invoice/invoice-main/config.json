@@ -17,10 +17,11 @@
         "$$date": 1705577110671
     },
     "modificationDate": {
-        "$$date": 1706089835682
+        "$$date": 1706618742335
     },
     "inheritedReadPermissions": [],
     "inheritedEditPermissions": [],
     "_id": "FR3JefJzd1WzAtaG",
-    "$entitySet": "templates"
+    "$entitySet": "templates",
+    "scripts": []
 }

@@ -15,52 +15,63 @@ incoming API request.
         </style>
     </head>
     <body>
-        <div class="invoice-box">
-            <table cellpadding="0" cellspacing="0">
-                <tr class="top">
-                    <td colspan="2">
-                        <table>
-                            <tr>
-                                <td class="title">
-                                    <img src="{{asset "invoice-logo2.png" "dataURI"}}" style="width:60%; max-width:150px;" />
-                                </td>
-                                <td>
-                                    Invoice #: {{number}}
-                                    <br> Created: {{nowLocalStr}}
-                                    <br> Due: {{nowPlus20Days}}
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr class="information">
-                    <td colspan="2 ">
-                        <table>
-                            <tr>
-                                <td>
-                                    {{seller.name}}<br>
-                                    {{seller.road}}<br>
-                                    {{seller.country}}
-                                </td>
-                                <td>
-                                    {{buyer.name}}<br>
-                                    {{buyer.road}}<br>
-                                    {{buyer.country}}
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr class="heading">
-                    <td>
-                        Item
-                    </td>
-                    <td>
-                        Price
-                    </td>
-                </tr>
-              
-            </table>
-        </div>
-    </body>
+
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <img src="{{asset "invoice-logo2.png" "dataURI"}}" />
+                            </td>
+                            <td>
+                                Invoice #: {{number}}
+                                <br> Created: {{nowLocalStr}}
+                                <br> Due: {{nowPlus20Days}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+                                {{seller.name}}<br>
+                                {{seller.road}}<br>
+                                {{seller.country}}
+                            </td>
+                            <td>
+                                {{buyer.name}}<br>
+                                {{buyer.road}}<br>
+                                {{buyer.country}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="heading">
+                <td>
+                    Item
+                </td>
+                <td>
+                    Price
+                </td>
+            </tr>
+            {{#each articles}}
+            <tr class="item">
+                <td>{{name}}</td>
+                <td>${{price}}</td>
+            </tr>
+            {{/each}}
+            <tr class="total">
+                <td></td>
+                <td>Total: ${{totalAmount}}</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
 </html>

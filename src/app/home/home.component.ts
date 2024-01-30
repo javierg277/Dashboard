@@ -1,4 +1,4 @@
-// En tu componente de Angular
+// Importaciones necesarias
 import { Component } from '@angular/core';
 import { JsReportService } from '../js.service';
 import { HttpClient } from '@angular/common/http';
@@ -11,10 +11,12 @@ import { FormArray, FormControl, FormGroup } from '@angular/forms';
   
 })
 export class HomeComponent {
+  // Formulario para los parámetros del informe
   paramsForm: FormGroup;
   
-
+ // Inyección de dependencias en el constructo
   constructor(private http: HttpClient, private jsReportService: JsReportService) {
+    // Inicialización del formulario
     this.paramsForm = new FormGroup({
       sellerName: new FormControl(''),
       sellerRoad: new FormControl(''),
@@ -25,6 +27,8 @@ export class HomeComponent {
       invoiceNumber: new FormControl(''),
     });
   }
+
+  // Datos del formulario
   formData = {
     seller: {
       name: '',
@@ -36,39 +40,86 @@ export class HomeComponent {
       road: '',
       country: '',
     },
-    number: ''
+    number: '',
+    articles: [
+      {
+        name: '',
+        price: 0
+      }
+    ]
   };
   
 
-
+// Archivo PDF como Blob
   pdfFile: Blob = new Blob();
 
   
   
-
+ // Método que se ejecuta al iniciar el componente
   ngOnInit() {
     this.showTemplates();
   }
+
+
+ // Método para calcular el total del importe
+  getTotalAmount() {
+    let total = 0;
+    for (let article of this.formData.articles) {
+      total += article.price;
+    }
+    return total;
+  }
+
+// Método para añadir un artículo
+  addArticle() {
+    this.formData.articles.push({
+      name: '',
+      price: 0
+    });
+  }
+
+
+// Método para enviar el formulario
   submitForm() {
     const templateName = 'invoice-main';
-    const datosInforme = this.formData;
+    const datosInforme = {
+      ...this.formData,
+      totalAmount: this.getTotalAmount()
+    };
     console.log(datosInforme);
-
-    
-
-  
     this.jsReportService.generarInforme(templateName, datosInforme).subscribe(
       (respuesta) => {
         // Guarda el PDF como un Blob
         this.pdfFile = new Blob([respuesta], { type: 'application/pdf' });
+     // Limpia los datos del formulario
+     this.formData = {
+      seller: {
+        name: '',
+        road: '',
+        country: ''
       },
-      (error) => {
-        // Manejar errores
-        console.error('Error al generar el informe', error);
-      }
-    );
+      buyer: {
+        name: '',
+        road: '',
+        country: ''
+      },
+      number: '',
+      articles: [
+        {
+          name: '',
+          price: 0
+        }
+      ]
+    };
+  },
+  (error) => {
+    // Manejar errores
+    console.error('Error al generar el informe', error);
   }
-  
+);
+}
+      
+  // Métodos para generar informes específicos
   generarInformeOrder() {
     const templateName = 'orders-main';
     const datosInforme = {};
@@ -209,6 +260,7 @@ export class HomeComponent {
         }
       );
     }
+     // Método para mostrar los templates disponibles
     showTemplates() {
       this.jsReportService.getTemplates().subscribe(
         (respuesta: any) => {
