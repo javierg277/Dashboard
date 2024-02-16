@@ -3,63 +3,44 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     </head>
     <body>
-        <form (submit)="submitForm()" method="post">
-            <h3>Seller Information</h3>
-            <label>
-              Name:
-              <input type="text" name="sellerName" [(ngModel)]="formData.seller.name">
-            </label>
-            <label>
-              Road:
-              <input type="text" name="sellerRoad" [(ngModel)]="formData.seller.road">
-            </label>
-            <label>
-              Country:
-              <input type="text"name="sellerCountry" [(ngModel)]="formData.seller.country">
-            </label>
-          
-            <h3>Buyer Information</h3>
-            <label>
-              Name:
-              <input type="text" name="buyerName" [(ngModel)]="formData.buyer.name">
-            </label>
-            <label>
-              Road:
-              <input type="text" name="buyerRoad" [(ngModel)]="formData.buyer.road">
-            </label>
-            <label>
-              Country:
-              <input type="text" name="buyerCountry" [(ngModel)]="formData.buyer.country">
-            </label>
-          
-            <h3>Invoice Information</h3>
-            <label>
-              Invoice Number:
-              <input type="text" name="invoiceNumber" [(ngModel)]="formData.number">
-            </label>
-          
-            <h3>Articles</h3>
-            <div *ngFor="let article of formData.articles; let i = index">
-              <label>
-                Name:
-                <input type="text" [(ngModel)]="formData.articles[i].name" name="articleName{{i}}">
-              </label>
-              <label>
-                Price:
-                <input type="number" [(ngModel)]="formData.articles[i].price" name="articlePrice{{i}}">
-              </label>
+      <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">ATM</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Search ATM</a></li>
+                  <li><a class="dropdown-item" href="#">Report Errors</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <span>{{name}}!</span>
             </div>
-            <button  type="button" (click)="addArticle()">Añadir articulo</button>
-          
-            <button type="submit">Submit</button>
-        </form>
-    </body>
-</html>
-
-
-
-<button (click)="generarInformeInvoice()">Generar PDF Invoice-Main</button>
-<button (click)="generarInformeSales()">Generar Excel Sales-Main</button>
-<button (click)="generarInformeOrder()">Generar PDF  Orders-Main</button>
-<button (click)="showTemplates()">Mostrar Templates</button>
-<ngx-extended-pdf-viewer [src]="pdfFile" useBrowserLocale="true" height="80vh" [showDownloadButton]="true"></ngx-extended-pdf-viewer>
+          </div>
+        </div>
+      </nav>
+      </body>
+      <div class="filter-container">
+        <input [(ngModel)]="dateFilter" type="date" (change)="filterReports()">
+        <input [(ngModel)]="textFilter" type="text" (keyup)="filterReports()">
+        <button (click)="getReports()">Filter Reports</button>
+      
+        <div *ngFor="let report of filteredReports">
+          <!-- Render report -->
+        </div>
+      </div>
