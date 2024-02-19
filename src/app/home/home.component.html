@@ -14,19 +14,9 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
              
               <li class="nav-item">
-                <a class="nav-link" href="#">ATM</a>
+                <a class="nav-link" href="home">Criteria</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Search ATM</a></li>
-                  <li><a class="dropdown-item" href="#">Report Errors</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                </ul>
-              </li>
+             
             </ul>
             <div class="d-flex align-items-center">
               <span>{{name}}</span>
@@ -38,12 +28,12 @@
       <div class="filter-container">
         <input  class="filter-input" [(ngModel)]="dateFilter" type="date" (change)="filterReports()">
         <input class="filter-input" [(ngModel)]="textFilter" type="text" (keyup)="filterReports()">
-        <button class="filter-input" (click)="getReports(name)">Filter Reports</button>
       
         <div class="report-card" *ngFor="let report of filteredReports">
           <h2>{{ report.namE_REPORT1 }}</h2>
           <p>{{ report.descriptioN1 }}</p>
           <p>{{ report.urL_TEMPLATE1 }}</p>
           <p>{{ report.sqL_CRITERIA1 }}</p>
+          <a href="#" class="arrow"  >➔</a>
         </div>
       </div>
