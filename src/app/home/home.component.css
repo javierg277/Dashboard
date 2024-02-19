@@ -53,7 +53,16 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     background-color: #525252; /* Color de fondo del formulario */
     color: #99C33A; /* Color de texto de los campos de entrada */
+    position: relative;
 }
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em; 
+    margin-right: 30px;
+  }
 
 img{
     width: 60px;
