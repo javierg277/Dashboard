@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Color de fondo de la pantalla */
+    color: #343435; /* Color de texto principal */
+}
+
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #525252 !important; /* Color de fondo del formulario */
+    color: #ffffff !important; /* Color de las letras */
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary a {
+    color: #ffffff !important; /* Color de los enlaces */
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #99C33A;
+    background-color: #0D0D0D; /* Color de fondo de los campos de entrada */
+    color: #99C33A; /* Color de texto de los campos de entrada */
+    width: 100%;
+}
+
+.filter-button {
+    background-color: #99C33A; /* Color de fondo del botón */
+    color: #0D0D0D; /* Color de texto del botón */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+.report-card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    background-color: #525252; /* Color de fondo del formulario */
+    color: #99C33A; /* Color de texto de los campos de entrada */
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}

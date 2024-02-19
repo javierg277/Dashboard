@@ -16,16 +16,19 @@ export class HomeComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.getReports();
-    this.name = localStorage.getItem('username');
+    this.name = localStorage.getItem('name');
+    this.getReports(this.name);
+    console.log(this.name);
+    
+  
   }
 
-  getReports() {
-    this.http.get<any[]>('http://localhost:5188/api').subscribe((data: any[]) => {
+  getReports(name: string) {
+    this.http.get<any[]>(`http://localhost:5188/Cliente/Get Reports?name=${name}`).subscribe((data: any[]) => {
       this.reports = data;
       this.filterReports();
     });
-  }
+}
 
   filterReports() {
     this.filteredReports = this.reports.filter(report => this.filterReport(report));
