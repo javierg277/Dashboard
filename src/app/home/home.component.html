@@ -14,26 +14,23 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
              
               <li class="nav-item">
-                <a class="nav-link" href="home">Criteria</a>
+                <a class="nav-link" href="home" >Criteria</a>
               </li>
              
             </ul>
             <div class="d-flex align-items-center">
-              <span>{{name}}</span>
+              <button class="round-button">{{name[0]}}</button>
             </div>
           </div>
         </div>
       </nav>
       </body>
       <div class="filter-container">
-        <input  class="filter-input" [(ngModel)]="dateFilter" type="date" (change)="filterReports()">
-        <input class="filter-input" [(ngModel)]="textFilter" type="text" (keyup)="filterReports()">
+       
+        <input class="filter-input" placeholder="Buscar Por Nombre" [(ngModel)]="textFilter" type="text"  (keyup)="filterReports()"> 
       
         <div class="report-card" *ngFor="let report of filteredReports">
-          <h2>{{ report.namE_REPORT1 }}</h2>
-          <p>{{ report.descriptioN1 }}</p>
-          <p>{{ report.urL_TEMPLATE1 }}</p>
-          <p>{{ report.sqL_CRITERIA1 }}</p>
-          <a href="#" class="arrow"  >➔</a>
+          <a>{{ report.namE_REPORT1 }}</a>
+          <a href="#" class="arrow" >➔</a>
         </div>
       </div>
