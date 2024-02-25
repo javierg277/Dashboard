@@ -24,16 +24,13 @@
           </div>
         </div>
       </nav>
-      </body>
-      <div class="filter-container">
-       
-        <input class="filter-input" placeholder="Buscar Por Nombre" [(ngModel)]="textFilter" type="text"  (keyup)="filterReports()"> 
+    </body>
+      <div class="report-card"  >
+        <p>ID: {{ report?.iD1 }}</p>
+        <p>Name Report: {{ report?.namE_REPORT1 }}</p>
+        <p>Description: {{ report?.descriptioN1 }}</p>
+        <p>SQL Criteria: {{ report?.sqL_CRITERIA1 }}</p>
+        <p>URL Template: {{ report?.urL_TEMPLATE1 }}</p>
+      </div>
       
-        <div class="report-card" *ngFor="let report of filteredReports">
-          <a >{{ report.namE_REPORT1 }}</a>
-          <a>{{ report.description1 }}</a>
-       
-          
-          <a  class="arrow"  (click)="selectReport(report.iD1)">➔</a>
-
-        </div>
+      
