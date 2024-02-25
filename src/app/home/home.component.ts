@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,12 +14,22 @@ export class HomeComponent implements OnInit {
   textFilter: string | null = null;
   filteredReports: any[] = [];
   name: any;
+  description: string | undefined;
+  name_report: string | undefined;
+  url_template: string | undefined;
+  sql_criteria: string | undefined;
+  reportCriteria: any[] = [];
+  selectedReport: any;
+  
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
     this.name = localStorage.getItem('name');
     this.getReports(this.name);
+
+    
+   
     
     
     
@@ -31,11 +43,33 @@ export class HomeComponent implements OnInit {
     });
 }
 
+getReportsCrit(reportId: number): Observable<any> {
+  
+  return this.http.get(`http://localhost:5188/Cliente/Get ReportCrit?id=${reportId}`);
+}
+
+showModal(reportId: number) {
+  this.getReportsCrit(reportId).subscribe(
+    data => {
+      this.reportCriteria = data;
+
+
+    },
+    error => {
+      console.error('Error:', error);
+    }
+  ); 
+}
+
+
+
+
 filterReports() {
  
   const filterValue = (this.textFilter || '').toLowerCase();
 
   this.filteredReports = this.reports.filter(report => {
+   
     return report.namE_REPORT1 ? report.namE_REPORT1.toLowerCase().includes(filterValue) : false;
   });
 }
@@ -48,5 +82,9 @@ filterReports() {
       return false;
     }
     return true;
+  }
+
+  selectReport(id: string) {
+    this.router.navigate(['/criteria', id]);
   }
 }
