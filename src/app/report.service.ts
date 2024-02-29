@@ -12,4 +12,9 @@ export class ReportService {
   getReportById(id: string): Observable<any> {
     return this.http.get<any>(`http://localhost:5188/Cliente/Get Report/${id}`);
   }
+
+  getReportsCrit(reportId: string): Observable<any> {
+  
+    return this.http.get(`http://localhost:5188/Cliente/Get ReportCrit?id=${reportId}`);
+  }
 }
