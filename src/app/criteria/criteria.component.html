@@ -32,11 +32,12 @@
         <p>SQL Criteria: {{ report?.sqL_CRITERIA1 }}</p>
         <p>URL Template: {{ report?.urL_TEMPLATE1 }}</p>
       </div>
+      <button (click)="sendEmail()">Enviar correo electrónico</button>
       <div *ngFor="let criterion of criteria" style="text-align: center;">
         <div *ngIf="criterion.type1 === 'text'">
           <label>Nombre</label>
           <input type="text" [value]="criterion.type1">
-        </div>
+        </div>  
         <div *ngIf="criterion.type1 === 'date'">
           <label>Fecha inicial</label>
           <input type="date" [value]="criterion.type1">
@@ -44,5 +45,9 @@
           <input type="date" [value]="criterion.type1">
         </div>
       </div>
+
+<button (click)="generarInformeInvoice()">Generar Informe</button>
+
+      <ngx-extended-pdf-viewer [src]="pdfFile" useBrowserLocale="true" height="80vh" [showDownloadButton]="true"></ngx-extended-pdf-viewer>
       
       
