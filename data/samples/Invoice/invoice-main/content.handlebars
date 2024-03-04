@@ -3,45 +3,30 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <style>
             {{asset "invoice-styles.css" "utf8"}}
+            .service-info {
+                border: 1px solid #ddd;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
         </style>
     </head>
     <body>
-
-    <div class="invoice-box">
-        <table cellpadding="0" cellspacing="0">
-            <tr class="top">
-                <td colspan="2">
-                    <table>
-                        <tr>
-                            <td class="title">
-                                <img src="{{asset "invoice-logo2.png" "dataURI"}}" />
-                            </td>
-                            <td>
-                                Invoice #: {{iD1}}
-                               
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr class="information">
-                <td colspan="2">
-                    <table>
-                        <tr>
-                            <td>
-                                Report Name: {{namE_REPORT1}}<br>
-                                Description: {{descriptioN1}}<br>
-                                URL Template: {{urL_TEMPLATE1}}
-                            </td>
-                            <td>
-                                SQL Criteria: {{sqL_CRITERIA1}}
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-</body>
+         <div class="input-value">
+           Name: {{inputValue}}
+        </div>
+        {{#each data}}
+        <div class="invoice-box">
+            <h2>{{this.cajero}}</h2>
+            <div class="title">
+                <img src="{{asset "invoice-logo2.png" "dataURI"}}" />
+            </div>
+            {{#each this.servicios}}
+            <div class="service-info">
+                Servicio: {{this.servicio}}, Fecha: {{this.Fecha}}, Estado: {{this.Estado}}
+            </div>
+            {{/each}}
+        </div>
+        {{/each}}
+    </body>
 </html>

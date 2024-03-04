@@ -12,7 +12,7 @@
     "state": "planned",
     "enabled": true,
     "nextRun": {
-        "$$date": 1709290800000
+        "$$date": 1711965600000
     },
     "_id": "IQqByhh3reVzLBma",
     "$entitySet": "schedules"
