@@ -109,3 +109,11 @@ img{
     border-color: #6c757d;
   }
 
+  .centered-button {
+    display: block;
+    margin: 0 auto;
+    background-color:  rgb(255, 255, 255); ;
+    color: #495057;
+    margin-top: 40px;
+}
+
