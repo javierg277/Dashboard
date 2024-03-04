@@ -5,6 +5,9 @@ import { CommonModule } from '@angular/common';
 import { EmailService } from '../EmailService';
 import { JsReportService } from '../js.service';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { HttpClient } from '@angular/common/http';
+
+
 
 @Component({
   selector: 'app-criteria',
@@ -18,7 +21,8 @@ export class CriteriaComponent
   name: any;
   criteria: any;
   pdfFile: string = '';
-  constructor(private cdr: ChangeDetectorRef,private jsReportService: JsReportService,private route: ActivatedRoute,private emailService: EmailService, private reportService: ReportService){ }
+  file!:Blob;
+  constructor(private cdr: ChangeDetectorRef,private jsReportService: JsReportService,private route: ActivatedRoute,private emailService: EmailService, private reportService: ReportService,private http: HttpClient){ }
 
   ngOnInit() {
     this.name = localStorage.getItem('name');
@@ -38,10 +42,32 @@ export class CriteriaComponent
 }
 
 sendEmail() {
-  this.emailService.sendEmail().subscribe(response => {
+  if(!this.file) return;
+  this.emailService.sendEmail(this.file).subscribe(response => {
     console.log('Correo electrónico enviado');
   }, error => {
     console.log('Error al enviar el correo electrónico', error);
+  });
+}
+MandarCorreo(){
+  console.log(this.pdfFile);
+  return this.http.post('http://localhost:5188/SendEmail', { url: this.pdfFile }).subscribe(
+    
+  );
+  
+}
+convertBlobToString(blob: Blob): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (typeof reader.result === 'string') {
+        resolve(reader.result);
+      } else {
+        reject(new Error('Failed to convert Blob to string'));
+      }
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(blob);
   });
 }
 
@@ -118,9 +144,10 @@ const datosInforme ={data: [{"cajero":"ALCOY PAUSE+",
 };
 console.log(datosInforme);
   this.jsReportService.generarInforme(templateName, datosInforme) .subscribe((res: any) => {
-    const file = new Blob([res], { type: 'application/pdf' });
-    const fileURL = URL.createObjectURL(file);
-    this.pdfFile = fileURL; 
+  this.file = new Blob([res], { type: 'application/pdf' });
+    const fileURL = URL.createObjectURL(this.file);
+    this.pdfFile = fileURL;
+    console.log(this.pdfFile); 
   });
 }
 }
