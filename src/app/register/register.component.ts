@@ -27,6 +27,7 @@ export class RegisterComponent {
     this.router.navigate(['/login']);
     this.http.post(url, body).subscribe(response => {
       // Haz algo con la respuesta aquí
+      console.log(this.password);
     
     }, error => {
       // Maneja el error aquí

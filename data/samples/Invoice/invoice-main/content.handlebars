@@ -14,6 +14,7 @@
     <body>
        
         {{#each data}}
+        
         <div class="invoice-box">
             <h2>{{this.cajero}}</h2>
             <div class="title">
@@ -21,6 +22,7 @@
             </div>
             {{#each this.servicios}}
             <div class="service-info">
+                
                 Servicio: {{this.servicio}}, Fecha: {{this.Fecha}}, Estado: {{this.Estado}}
             </div>
             {{/each}}
