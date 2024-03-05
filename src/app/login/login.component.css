@@ -17,6 +17,12 @@
     padding: 20px;
     border-radius: 5px;
   }
+  .register-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #99C33A;
+  }
   
   label {
     font-weight: bold;

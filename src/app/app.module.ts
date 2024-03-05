@@ -10,11 +10,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { CommonModule } from '@angular/common';
 import { CriteriaComponent } from './criteria/criteria.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
   declarations: [
-    
+    RegisterComponent,
     AppComponent,
     HomeComponent,
     LoginComponent,
