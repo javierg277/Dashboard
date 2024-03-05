@@ -26,11 +26,9 @@
       </nav>
     </body>
       <div class="report-card"  >
-        <p>ID: {{ report?.iD1 }}</p>
-        <p>Name Report: {{ report?.namE_REPORT1 }}</p>
-        <p>Description: {{ report?.descriptioN1 }}</p>
-        <p>SQL Criteria: {{ report?.sqL_CRITERIA1 }}</p>
-        <p>URL Template: {{ report?.urL_TEMPLATE1 }}</p>
+       
+        <p>Report: {{ report?.namE_REPORT1 }}</p>
+        
       </div>
    
       <div *ngFor="let criterion of criteria" style="text-align: center;">
@@ -53,10 +51,9 @@
         </div>
       </div>
       
-
-      <button (click)="generarInformeInvoice()" class="centered-button">Generar Informe</button>
-      <button (click)="MandarCorreo()">Mandar Correo</button>
-
+      <div class="button-container">
+      <button (click)="generarInformeInvoice()" class="centered-button custom-button">Generar Informe</button>
+      </div>
       <ngx-extended-pdf-viewer [src]="pdfFile" useBrowserLocale="true" height="80vh" [showDownloadButton]="true"></ngx-extended-pdf-viewer>
       
       

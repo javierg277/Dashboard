@@ -1,0 +1,61 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF; /* Color de fondo de la pantalla */
+  }
+    form {
+      color: #343435; /* Color de texto principal */
+      background-color: #FFFFFF; /* Color de fondo del formulario */
+      border:1px solid #99C33A;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .register-link {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: #99C33A;
+    }
+    
+    label {
+      font-weight: bold;
+      margin: 10px 0;
+      color:#99C33A;
+    }
+    
+    input[type="text"], input[type="password"] {
+      background-color: #FFFFFF; /* Color de fondo de los campos de entrada */
+      color: #343435; /* Color de texto de los campos de entrada */
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #99C33A;
+      width: 100%;
+    }
+    
+    button {
+      background-color: #99C33A; /* Color de fondo del botón */
+      color: #FFFFFF; /* Color de texto del botón */
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+  
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo-container img {
+      width: 150px; /* Ajusta esto según el tamaño que quieras para tu logo */
+    }

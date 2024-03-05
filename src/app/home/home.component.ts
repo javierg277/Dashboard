@@ -27,13 +27,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.name = localStorage.getItem('name');
     this.getReports(this.name);
-
-    
-   
-    
-    
-    
-  
   }
 
   getReports(name: string) {
@@ -43,23 +36,9 @@ export class HomeComponent implements OnInit {
     });
 }
 
-getReportsCrit(reportId: number): Observable<any> {
-  
-  return this.http.get(`http://localhost:5188/Cliente/Get ReportCrit?id=${reportId}`);
-}
-
-showModal(reportId: number) {
-  this.getReportsCrit(reportId).subscribe(
-    data => {
-      this.reportCriteria = data;
 
 
-    },
-    error => {
-      console.error('Error:', error);
-    }
-  ); 
-}
+
 
 
 
