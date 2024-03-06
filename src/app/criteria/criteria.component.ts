@@ -51,7 +51,7 @@ export class CriteriaComponent {
   }
   MandarCorreo() {
     console.log(this.pdfFile);
-    return this.http.post('http://localhost:5188/SendEmail', { url: this.pdfFile }).subscribe(
+    return this.http.post('http://localhost:5188/SendEmail', { }).subscribe(
 
     );
 

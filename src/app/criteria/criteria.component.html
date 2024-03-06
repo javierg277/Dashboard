@@ -53,6 +53,7 @@
       
       <div class="button-container">
       <button (click)="generarInformeInvoice(report.iD1)" class="centered-button custom-button">Generar Informe</button>
+      <button (click)="MandarCorreo()" class="centered-button custom-button">Enviar Recibo</button>
       </div>
       <ngx-extended-pdf-viewer [src]="pdfFile" useBrowserLocale="true" height="80vh" [showDownloadButton]="true"></ngx-extended-pdf-viewer>
       
